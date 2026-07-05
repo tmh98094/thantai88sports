@@ -1,0 +1,8 @@
+node_modules
+.next
+.open-next
+.wrangler
+.worktrees
+coverage
+*.tsbuildinfo
+npm-debug.log*
