@@ -6,6 +6,8 @@ import { absoluteUrl } from "@/lib/site-config";
 const staticPaths = [
   "/",
   "/tin-the-thao",
+  "/tin-the-thao/tin-moi",
+  "/tin-the-thao/bai-viet",
   "/ca-cuoc-the-thao",
   "/gioi-thieu",
   "/lien-he",

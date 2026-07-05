@@ -15,6 +15,15 @@ export const frontmatterSchema = z.object({
   contentType: z.enum(["news", "analysis", "guide"]).default("guide"),
   image: z.string().startsWith("/images/"),
   imageAlt: z.string().min(10).max(160),
+  sourceRefs: z
+    .array(
+      z.object({
+        title: z.string().min(3),
+        url: z.url(),
+        accessedAt: z.iso.date(),
+      }),
+    )
+    .default([]),
   related: z.array(z.string()).max(4).default([]),
   faq: z
     .array(z.object({ question: z.string().min(10), answer: z.string().min(20) }))
@@ -29,4 +38,7 @@ export const postSchema = frontmatterSchema.extend({
 });
 
 export type Post = z.infer<typeof postSchema>;
-export type PostSummary = Pick<Post, "slug" | "title" | "description" | "category" | "tags" | "readingMinutes" | "image" | "imageAlt">;
+export type PostSummary = Pick<
+  Post,
+  "slug" | "title" | "description" | "category" | "tags" | "readingMinutes" | "image" | "imageAlt" | "contentType" | "publishedAt"
+>;

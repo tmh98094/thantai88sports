@@ -15,7 +15,7 @@ export function getFeaturedPosts(): Post[] {
 }
 
 export function getPostSummaries(): PostSummary[] {
-  return posts.map(({ slug, title, description, category, tags, readingMinutes, image, imageAlt }) => ({
+  return posts.map(({ slug, title, description, category, tags, readingMinutes, image, imageAlt, contentType, publishedAt }) => ({
     slug,
     title,
     description,
@@ -24,6 +24,8 @@ export function getPostSummaries(): PostSummary[] {
     readingMinutes,
     image,
     imageAlt,
+    contentType,
+    publishedAt,
   }));
 }
 
@@ -33,6 +35,11 @@ export function getPostBySlug(slug: string): Post | undefined {
 
 export function getPostsByCategory(category: CategorySlug | string): Post[] {
   return posts.filter((post) => post.category === category);
+}
+
+export function getPostsByContentType(contentTypes: Post["contentType"][]): Post[] {
+  const allowed = new Set(contentTypes);
+  return posts.filter((post) => allowed.has(post.contentType));
 }
 
 export function getRelatedPosts(post: Post, limit = 3): Post[] {

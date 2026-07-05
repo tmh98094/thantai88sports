@@ -24,6 +24,9 @@ async function compilePost(filename: string): Promise<Post> {
   if (metadata.image !== expectedImage) {
     throw new Error(`Article image in ${filename} must be ${expectedImage}`);
   }
+  if (metadata.contentType === "news" && metadata.sourceRefs.length === 0) {
+    throw new Error(`News article ${filename} must include at least one sourceRefs item`);
+  }
   const wordCount = content.trim().split(/\s+/u).length;
   const html = await marked.parse(content, { gfm: true, breaks: false });
 

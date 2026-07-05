@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-07-06T00:00:00.000Z",
+  "sourceStatus": "fallback",
+  "sections": [
+    {
+      "id": "world-cup-2026",
+      "title": "World Cup 2026",
+      "description": "Khu vực lịch thi đấu và kết quả World Cup 2026 sẽ được cập nhật khi API miễn phí có dữ liệu phù hợp.",
+      "items": [
+        {
+          "label": "Theo dõi lịch chính thức",
+          "value": "Đang chờ dữ liệu",
+          "note": "Kiểm tra nguồn FIFA hoặc API thể thao trước khi xuất bản tin tức."
+        }
+      ]
+    },
+    {
+      "id": "upcoming-football",
+      "title": "Trận đáng chú ý sắp tới",
+      "description": "Dữ liệu hiển thị ở chế độ dự phòng khi chưa có API key hoặc đã hết quota miễn phí.",
+      "items": [
+        {
+          "label": "Nguồn dữ liệu",
+          "value": "Chưa kết nối API",
+          "note": "Thêm API_FOOTBALL_KEY hoặc FOOTBALL_DATA_KEY để tự động cập nhật."
+        }
+      ]
+    },
+    {
+      "id": "recent-results",
+      "title": "Kết quả gần đây",
+      "description": "Kết quả chỉ nên dùng để tham khảo và cần ghi rõ nguồn dữ liệu khi được cập nhật.",
+      "items": [
+        {
+          "label": "Trạng thái",
+          "value": "Chưa có dữ liệu mới",
+          "note": "Widget vẫn hiển thị an toàn để không làm vỡ giao diện."
+        }
+      ]
+    }
+  ]
+}

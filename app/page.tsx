@@ -6,6 +6,7 @@ import { ImagePlaceholder } from "@/components/image-placeholder";
 import { PartnerLink } from "@/components/partner-link";
 import { PostCard } from "@/components/post-card";
 import { SectionHeading } from "@/components/section-heading";
+import { SportsWidgets } from "@/components/sports-widgets";
 import { categories, getAllPosts, getFeaturedPosts } from "@/lib/posts";
 import { serializeJsonLd, websiteJsonLd } from "@/lib/seo";
 
@@ -49,6 +50,12 @@ export default function HomePage() {
           <div className="ticker-items">
             {latest.slice(0, 3).map((post, index) => <Link href={`/tin-the-thao/${post.slug}`} key={post.slug}><b>0{index + 1}</b>{post.title}</Link>)}
           </div>
+        </div>
+      </section>
+
+      <section className="section section-sports-widgets" data-gsap="reveal">
+        <div className="container">
+          <SportsWidgets />
         </div>
       </section>
 
