@@ -1,8 +1,8 @@
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 if (!siteUrl) {
-  console.error("NEXT_PUBLIC_SITE_URL is required for production builds so canonical and sitemap URLs are correct.");
-  process.exit(1);
+  console.warn("NEXT_PUBLIC_SITE_URL is not set. Using the Cloudflare fallback URL for this build. Set NEXT_PUBLIC_SITE_URL before final production launch.");
+  process.exit(0);
 }
 
 try {

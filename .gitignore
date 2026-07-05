@@ -4,6 +4,7 @@ node_modules/
 .open-next/
 .wrangler/
 coverage/
+generated/
 .env*
 !.env.example
 npm-debug.log*

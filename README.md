@@ -2,7 +2,7 @@
 
 Vietnamese sports/iGaming content website built with Next.js App Router.
 
-This repository is prepared as a frontend-only handoff for design review and later Vercel deployment. Backend/webhook/deployment-specific integrations can wait until client approval.
+This repository is prepared as a frontend-only handoff for design review and Cloudflare deployment. Backend/webhook integrations can wait until client approval.
 
 ## Run locally
 
@@ -18,7 +18,7 @@ Open `http://localhost:3000`.
 
 ## Required environment for production build
 
-Set this in Vercel before building:
+Set this in Cloudflare before the final production build:
 
 ```bash
 NEXT_PUBLIC_SITE_URL=https://your-production-domain.com
@@ -31,22 +31,23 @@ PARTNER_URL=https://www.thantai688.com/?f=55
 CONTACT_WEBHOOK_URL=
 ```
 
-## Vercel setup
+## Cloudflare setup
 
-- Framework preset: Next.js
 - Install command: `npm install`
-- Build command: `npm run build`
-- Output directory: leave default
+- Build/test command: `npm run cf:build`
+- Preview locally on the Cloudflare adapter: `npm run preview`
+- Deploy with Wrangler/OpenNext: `npm run deploy`
 
 ## Pre-upload checks
 
-Run these before uploading/importing to Vercel:
+Run these before deploying to Cloudflare:
 
 ```bash
 npm test
 npm run lint
 npm run typecheck
 npm run build
+npm run cf:dry-run
 ```
 
 ## Articles
