@@ -12,7 +12,7 @@ import { articleJsonLd, breadcrumbJsonLd, buildMetadata, serializeJsonLd } from 
 
 type ArticlePageProps = { params: Promise<{ slug: string }> };
 
-export const dynamicParams = false;
+export const dynamicParams = true;
 
 export function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));

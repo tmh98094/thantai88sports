@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, buildMetadata, serializeJsonLd } from "@/lib/seo";
 
 type CategoryPageProps = { params: Promise<{ slug: string }> };
 
-export const dynamicParams = false;
+export const dynamicParams = true;
 
 export function generateStaticParams() {
   return categories.map((category) => ({ slug: category.slug }));

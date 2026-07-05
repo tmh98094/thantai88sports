@@ -1,4 +1,6 @@
 import { describe, expect, it } from "vitest";
+import * as CategoryRoute from "@/app/chu-de/[slug]/page";
+import * as ArticleRoute from "@/app/tin-the-thao/[slug]/page";
 import { categories, getAllPosts, getPostBySlug, getPostSummaries, getPostsByCategory } from "@/lib/posts";
 
 describe("Vietnamese post index", () => {
@@ -36,5 +38,10 @@ describe("Vietnamese post index", () => {
         expect(slugs.has(href.replace("/tin-the-thao/", "")), `${post.slug} -> ${href}`).toBe(true);
       }
     }
+  });
+
+  it("keeps dynamic content routes compatible with Cloudflare OpenNext", () => {
+    expect(ArticleRoute.dynamicParams).not.toBe(false);
+    expect(CategoryRoute.dynamicParams).not.toBe(false);
   });
 });
