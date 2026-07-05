@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npm run content:build && next dev",
-    "build": "npm run validate:env && npm run content:build && next build",
+    "build": "npm run validate:env && npm run content:build && next build --webpack",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "npm run content:build && tsc --noEmit",
@@ -16,7 +16,13 @@
     "preview": "npm run cf:build && opennextjs-cloudflare preview",
     "deploy": "npm run cf:build && opennextjs-cloudflare deploy",
     "cf:dry-run": "npm run cf:build && wrangler deploy --dry-run",
-    "cf-typegen": "wrangler types cloudflare-env.d.ts --env-interface CloudflareEnv --include-runtime false"
+    "cf-typegen": "wrangler types cloudflare-env.d.ts --env-interface CloudflareEnv --include-runtime false",
+    "ops:test": "node --test scripts/seo-ops-lib.test.mjs",
+    "seo:weekly": "node scripts/seo-weekly.mjs",
+    "content:briefs": "node scripts/content-briefs.mjs",
+    "content:drafts": "node scripts/content-drafts.mjs",
+    "links:audit": "node scripts/links-audit.mjs",
+    "api:sports-cache": "node scripts/api-sports-cache.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

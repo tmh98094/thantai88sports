@@ -62,6 +62,39 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="section section-platform-context" data-gsap="reveal">
+        <div className="container platform-context-panel">
+          <div className="platform-context-copy">
+            <span className="eyebrow">Từ nền tảng đối tác</span>
+            <h2>Nền tảng đối tác có khu thể thao, còn Thantai88sport giúp bạn đọc bối cảnh trước khi chuyển sang nền tảng 18+.</h2>
+            <p>
+              Qua kiểm tra giao diện công khai của Thantai688, hệ sinh thái có các nhóm như Thể thao, live casino, game, bắn cá và xổ số. Vì vậy trang này ưu tiên tin tức, lịch thi đấu, kiến thức đọc trận và lưu ý chơi có trách nhiệm trước khi người đọc quyết định truy cập.
+            </p>
+            <div className="platform-context-actions">
+              <PartnerLink>Vào nền tảng Thantai688</PartnerLink>
+              <Link className="text-link" href="/choi-co-trach-nhiem">Xem nguyên tắc 18+ <ArrowRight /></Link>
+            </div>
+          </div>
+          <div className="platform-context-grid" aria-label="Nhóm nội dung đã được đối chiếu ở mức danh mục">
+            <article>
+              <span>01</span>
+              <strong>Khu thể thao</strong>
+              <p>Tập trung vào bối cảnh trước trận, lịch thi đấu và cách đọc thông tin một cách tỉnh táo.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <strong>Nhóm giải trí</strong>
+              <p>Live, game, bắn cá và xổ số được nhắc ở mức danh mục để điều hướng, không đưa ra khẳng định về tỷ lệ thắng.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <strong>Chơi có trách nhiệm</strong>
+              <p>Mỗi nút truy cập đều đi kèm nhắc nhở 18+, tự đặt ngân sách và không xem bất kỳ phân tích nào là kết quả bảo đảm.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section className="section section-categories" data-gsap="reveal">
         <div className="container">
           <SectionHeading eyebrow="Khám phá theo chủ đề" title="Mỗi góc nhìn, một nhịp thể thao" description="Từ sân cỏ trong nước đến những xu hướng chiến thuật quốc tế." />
