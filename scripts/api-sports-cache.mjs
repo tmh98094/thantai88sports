@@ -9,8 +9,11 @@ import {
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import {
+  buildFootballDataMatchWindow,
   buildFallbackSportsWidgets,
   buildFootballDataWidgets,
+  isFootballDataMatchFinished,
+  isFootballDataMatchUpcoming,
   normalizeFootballDataMatch,
   normalizeFootballDataStanding,
 } from "./content-automation-lib.mjs";
@@ -92,9 +95,12 @@ async function buildWidgetsFromFootballData() {
 
   const leagues = [];
   const publicLeagues = [];
+  const matchWindow = buildFootballDataMatchWindow(date);
   for (const competition of footballDataCompetitions) {
     try {
-      const matches = await fetchFootballData(`/competitions/${competition.code}/matches`);
+      const matches = await fetchFootballData(
+        `/competitions/${competition.code}/matches?dateFrom=${matchWindow.dateFrom}&dateTo=${matchWindow.dateTo}`,
+      );
       const standings = await fetchFootballData(`/competitions/${competition.code}/standings`);
       const matchList = matches.matches ?? [];
       const standingList = standings.standings ?? [];
@@ -105,12 +111,12 @@ async function buildWidgetsFromFootballData() {
       });
       const totalStanding = standingList.find((standing) => standing.type === "TOTAL") ?? standingList[0];
       const upcomingFixtures = matchList
-        .filter((match) => ["SCHEDULED", "TIMED"].includes(match.status))
+        .filter((match) => isFootballDataMatchUpcoming(match, date))
         .sort((a, b) => new Date(a.utcDate).getTime() - new Date(b.utcDate).getTime())
         .slice(0, 8)
         .map((match) => normalizeFootballDataMatch(match, competition));
       const recentResults = matchList
-        .filter((match) => ["FINISHED", "AWARDED"].includes(match.status))
+        .filter((match) => isFootballDataMatchFinished(match))
         .sort((a, b) => new Date(b.utcDate).getTime() - new Date(a.utcDate).getTime())
         .slice(0, 8)
         .map((match) => normalizeFootballDataMatch(match, competition));

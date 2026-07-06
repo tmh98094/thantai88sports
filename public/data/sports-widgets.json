@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T00:48:15.767Z",
+  "generatedAt": "2026-07-06T01:01:47.610Z",
   "sourceStatus": "football-data.org",
   "providerErrors": [],
   "rateLimits": [
     {
       "provider": "football-data.org",
-      "path": "/competitions/PL/matches",
+      "path": "/competitions/PL/matches?dateFrom=2026-06-22&dateTo=2026-07-27",
       "remainingMinute": "9"
     },
     {
@@ -15,7 +15,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/CL/matches",
+      "path": "/competitions/CL/matches?dateFrom=2026-06-22&dateTo=2026-07-27",
       "remainingMinute": "8"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/PD/matches",
+      "path": "/competitions/PD/matches?dateFrom=2026-06-22&dateTo=2026-07-27",
       "remainingMinute": "6"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/SA/matches",
+      "path": "/competitions/SA/matches?dateFrom=2026-06-22&dateTo=2026-07-27",
       "remainingMinute": "4"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/WC/matches",
+      "path": "/competitions/WC/matches?dateFrom=2026-06-22&dateTo=2026-07-27",
       "remainingMinute": "2"
     },
     {

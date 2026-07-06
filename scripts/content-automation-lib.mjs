@@ -131,6 +131,25 @@ function readFootballDataTeamName(team) {
   return team?.shortName || team?.name || "Đội bóng";
 }
 
+function formatIsoDateOnly(value) {
+  return value.toISOString().slice(0, 10);
+}
+
+function addUtcDays(date, days) {
+  const next = new Date(date);
+  next.setUTCDate(next.getUTCDate() + days);
+  return next;
+}
+
+export function buildFootballDataMatchWindow(date = new Date(), { pastDays = 14, futureDays = 21 } = {}) {
+  const base = new Date(date);
+
+  return {
+    dateFrom: formatIsoDateOnly(addUtcDays(base, -pastDays)),
+    dateTo: formatIsoDateOnly(addUtcDays(base, futureDays)),
+  };
+}
+
 function formatVietnamTime(value) {
   return new Date(value).toLocaleString("vi-VN", {
     dateStyle: "medium",
@@ -155,11 +174,31 @@ const footballDataStatusLabels = {
   CANCELLED: "Hủy",
 };
 
+function hasFootballDataFullTimeScore(match) {
+  const fullTime = match?.score?.fullTime;
+  return typeof fullTime?.home === "number" && typeof fullTime?.away === "number";
+}
+
+export function isFootballDataMatchFinished(match) {
+  return ["FINISHED", "AWARDED"].includes(match?.status) || hasFootballDataFullTimeScore(match);
+}
+
+export function isFootballDataMatchUpcoming(match, referenceDate = new Date()) {
+  if (["POSTPONED", "SUSPENDED", "CANCELLED", "FINISHED", "AWARDED"].includes(match?.status)) return false;
+  if (hasFootballDataFullTimeScore(match)) return false;
+
+  const startsAt = new Date(match?.utcDate).getTime();
+  const reference = new Date(referenceDate).getTime();
+  if (!Number.isFinite(startsAt) || !Number.isFinite(reference)) return false;
+
+  return startsAt >= reference;
+}
+
 export function normalizeFootballDataMatch(match, competition) {
   const home = readFootballDataTeamName(match?.homeTeam);
   const away = readFootballDataTeamName(match?.awayTeam);
   const fullTime = match?.score?.fullTime;
-  const hasScore = typeof fullTime?.home === "number" && typeof fullTime?.away === "number";
+  const hasScore = hasFootballDataFullTimeScore(match);
   const status = footballDataStatusLabels[match?.status] ?? match?.status ?? "Cập nhật";
   const round = match?.matchday ? `Vòng ${match.matchday}` : "Lịch thi đấu";
 
@@ -197,10 +236,10 @@ export function buildFootballDataWidgets({ generatedAt = new Date(), leagues = [
 
     for (const match of league.matches ?? []) {
       const item = normalizeFootballDataMatch(match, competition);
-      if (["SCHEDULED", "TIMED"].includes(match.status)) {
+      if (isFootballDataMatchUpcoming(match, generatedAt)) {
         upcoming.push(item);
       }
-      if (["FINISHED", "AWARDED"].includes(match.status)) {
+      if (isFootballDataMatchFinished(match)) {
         recent.push(item);
       }
     }

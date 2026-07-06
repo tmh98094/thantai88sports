@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  buildFootballDataMatchWindow,
   buildFootballDataWidgets,
   buildFallbackSportsWidgets,
   buildPostQualityReport,
@@ -175,4 +176,40 @@ test("buildFootballDataWidgets prioritizes football-data.org sections for homepa
   assert.ok(widgets.sections.some((section) => section.id === "upcoming-football"));
   assert.ok(widgets.sections.some((section) => section.id === "recent-results"));
   assert.ok(widgets.sections.some((section) => section.id === "standings-snapshot"));
+});
+
+test("buildFootballDataWidgets treats future football-data matches without scores as upcoming even with nonstandard status", () => {
+  const widgets = buildFootballDataWidgets({
+    generatedAt: new Date("2026-07-06T00:00:00Z"),
+    leagues: [
+      {
+        code: "WC",
+        name: "World Cup",
+        shortName: "World Cup",
+        matches: [
+          {
+            utcDate: "2026-07-06T01:00:00Z",
+            status: "2026-07-06 01:00:00Z",
+            matchday: 5,
+            homeTeam: { shortName: "Mexico", name: "Mexico" },
+            awayTeam: { shortName: "England", name: "England" },
+            score: { fullTime: { home: null, away: null } },
+          },
+        ],
+        standings: [],
+      },
+    ],
+  });
+
+  const upcoming = widgets.sections.find((section) => section.id === "upcoming-football");
+
+  assert.equal(upcoming.items[0].label, "Mexico - England");
+  assert.notEqual(upcoming.items[0].label, "Lá»‹ch sáº¯p tá»›i");
+});
+
+test("buildFootballDataMatchWindow covers recent results and upcoming fixtures around the run date", () => {
+  const window = buildFootballDataMatchWindow(new Date("2026-07-06T12:00:00Z"));
+
+  assert.equal(window.dateFrom, "2026-06-22");
+  assert.equal(window.dateTo, "2026-07-27");
 });
