@@ -1,4 +1,4 @@
-const deploymentUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://thantai88sports.com";
+const deploymentUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://thantai88.site";
 
 export const siteConfig = {
   name: "Thantai88sport",
