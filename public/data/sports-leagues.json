@@ -1,0 +1,645 @@
+{
+  "generatedAt": "2026-07-06T00:48:15.767Z",
+  "sourceStatus": "football-data.org",
+  "leagues": [
+    {
+      "code": "PL",
+      "name": "Premier League",
+      "shortName": "Premier League",
+      "upcomingFixtures": [
+        {
+          "label": "Arsenal - Coventry City",
+          "value": "02:00 22 thg 8, 2026",
+          "note": "Premier League · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-21T19:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Hull City - Man United",
+          "value": "18:30 22 thg 8, 2026",
+          "note": "Premier League · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-22T11:30:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Ipswich Town - Sunderland",
+          "value": "21:00 22 thg 8, 2026",
+          "note": "Premier League · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-22T14:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Nottingham - Leeds United",
+          "value": "21:00 22 thg 8, 2026",
+          "note": "Premier League · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-22T14:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Everton - Crystal Palace",
+          "value": "21:00 22 thg 8, 2026",
+          "note": "Premier League · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-22T14:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Brentford - Tottenham",
+          "value": "23:30 22 thg 8, 2026",
+          "note": "Premier League · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-22T16:30:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Man City - Bournemouth",
+          "value": "20:00 23 thg 8, 2026",
+          "note": "Premier League · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T13:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Brighton Hove - Aston Villa",
+          "value": "20:00 23 thg 8, 2026",
+          "note": "Premier League · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T13:00:00Z",
+          "status": "SCHEDULED"
+        }
+      ],
+      "recentResults": [],
+      "standings": []
+    },
+    {
+      "code": "CL",
+      "name": "Champions League",
+      "shortName": "Champions League",
+      "upcomingFixtures": [],
+      "recentResults": [
+        {
+          "label": "PSG - Arsenal",
+          "value": "5 - 4",
+          "note": "Champions League · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-05-30T16:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Bayern - PSG",
+          "value": "1 - 1",
+          "note": "Champions League · Vòng 2 · Đã kết thúc",
+          "startsAt": "2026-05-06T19:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Arsenal - Atleti",
+          "value": "1 - 0",
+          "note": "Champions League · Vòng 2 · Đã kết thúc",
+          "startsAt": "2026-05-05T19:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Atleti - Arsenal",
+          "value": "1 - 1",
+          "note": "Champions League · Vòng 1 · Đã kết thúc",
+          "startsAt": "2026-04-29T19:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "PSG - Bayern",
+          "value": "5 - 4",
+          "note": "Champions League · Vòng 1 · Đã kết thúc",
+          "startsAt": "2026-04-28T19:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Bayern - Real Madrid",
+          "value": "4 - 3",
+          "note": "Champions League · Vòng 2 · Đã kết thúc",
+          "startsAt": "2026-04-15T19:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Arsenal - Sporting CP",
+          "value": "0 - 0",
+          "note": "Champions League · Vòng 2 · Đã kết thúc",
+          "startsAt": "2026-04-15T19:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Liverpool - PSG",
+          "value": "0 - 2",
+          "note": "Champions League · Vòng 2 · Đã kết thúc",
+          "startsAt": "2026-04-14T19:00:00Z",
+          "status": "FINISHED"
+        }
+      ],
+      "standings": [
+        {
+          "label": "Champions League: Arsenal",
+          "value": "#1 · 24 điểm",
+          "note": "8 trận · HS +19 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Bayern",
+          "value": "#2 · 21 điểm",
+          "note": "8 trận · HS +14 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Liverpool",
+          "value": "#3 · 18 điểm",
+          "note": "8 trận · HS +12 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Tottenham",
+          "value": "#4 · 17 điểm",
+          "note": "8 trận · HS +10 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Barça",
+          "value": "#5 · 16 điểm",
+          "note": "8 trận · HS +8 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Chelsea",
+          "value": "#6 · 16 điểm",
+          "note": "8 trận · HS +7 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Sporting CP",
+          "value": "#7 · 16 điểm",
+          "note": "8 trận · HS +6 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Man City",
+          "value": "#8 · 16 điểm",
+          "note": "8 trận · HS +6 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Real Madrid",
+          "value": "#9 · 15 điểm",
+          "note": "8 trận · HS +9 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Inter",
+          "value": "#10 · 15 điểm",
+          "note": "8 trận · HS +8 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: PSG",
+          "value": "#11 · 14 điểm",
+          "note": "8 trận · HS +10 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Newcastle",
+          "value": "#12 · 14 điểm",
+          "note": "8 trận · HS +10 · Phong độ đang cập nhật"
+        }
+      ]
+    },
+    {
+      "code": "PD",
+      "name": "La Liga",
+      "shortName": "La Liga",
+      "upcomingFixtures": [
+        {
+          "label": "Atleti - Málaga",
+          "value": "22:00 16 thg 8, 2026",
+          "note": "La Liga · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-16T15:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Santander - Villarreal",
+          "value": "22:00 16 thg 8, 2026",
+          "note": "La Liga · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-16T15:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Barça - Athletic",
+          "value": "22:00 16 thg 8, 2026",
+          "note": "La Liga · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-16T15:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Real Madrid - Real Sociedad",
+          "value": "22:00 16 thg 8, 2026",
+          "note": "La Liga · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-16T15:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Espanyol - Levante",
+          "value": "22:00 16 thg 8, 2026",
+          "note": "La Liga · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-16T15:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Sevilla FC - Rayo Vallecano",
+          "value": "22:00 16 thg 8, 2026",
+          "note": "La Liga · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-16T15:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Alavés - Getafe",
+          "value": "22:00 16 thg 8, 2026",
+          "note": "La Liga · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-16T15:00:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Deportivo - Elche",
+          "value": "22:00 16 thg 8, 2026",
+          "note": "La Liga · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-16T15:00:00Z",
+          "status": "SCHEDULED"
+        }
+      ],
+      "recentResults": [],
+      "standings": [
+        {
+          "label": "La Liga: Barça",
+          "value": "#1 · 94 điểm",
+          "note": "38 trận · HS +59 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Real Madrid",
+          "value": "#2 · 86 điểm",
+          "note": "38 trận · HS +42 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Villarreal",
+          "value": "#3 · 72 điểm",
+          "note": "38 trận · HS +26 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Atleti",
+          "value": "#4 · 69 điểm",
+          "note": "38 trận · HS +18 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Real Betis",
+          "value": "#5 · 60 điểm",
+          "note": "38 trận · HS +11 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Celta",
+          "value": "#6 · 54 điểm",
+          "note": "38 trận · HS +5 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Getafe",
+          "value": "#7 · 51 điểm",
+          "note": "38 trận · HS -6 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Rayo Vallecano",
+          "value": "#8 · 50 điểm",
+          "note": "38 trận · HS -3 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Valencia",
+          "value": "#9 · 49 điểm",
+          "note": "38 trận · HS -9 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Real Sociedad",
+          "value": "#10 · 46 điểm",
+          "note": "38 trận · HS -2 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Espanyol",
+          "value": "#11 · 46 điểm",
+          "note": "38 trận · HS -12 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Athletic",
+          "value": "#12 · 45 điểm",
+          "note": "38 trận · HS -15 · Phong độ đang cập nhật"
+        }
+      ]
+    },
+    {
+      "code": "SA",
+      "name": "Serie A",
+      "shortName": "Serie A",
+      "upcomingFixtures": [
+        {
+          "label": "Udinese - Como 1907",
+          "value": "23:30 23 thg 8, 2026",
+          "note": "Serie A · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T16:30:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Bologna - Lazio",
+          "value": "23:30 23 thg 8, 2026",
+          "note": "Serie A · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T16:30:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Genoa - Napoli",
+          "value": "23:30 23 thg 8, 2026",
+          "note": "Serie A · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T16:30:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Inter - Monza",
+          "value": "23:30 23 thg 8, 2026",
+          "note": "Serie A · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T16:30:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Atalanta - Sassuolo",
+          "value": "23:30 23 thg 8, 2026",
+          "note": "Serie A · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T16:30:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Torino - Milan",
+          "value": "23:30 23 thg 8, 2026",
+          "note": "Serie A · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T16:30:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Frosinone - Juventus",
+          "value": "23:30 23 thg 8, 2026",
+          "note": "Serie A · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T16:30:00Z",
+          "status": "SCHEDULED"
+        },
+        {
+          "label": "Parma - Cagliari",
+          "value": "23:30 23 thg 8, 2026",
+          "note": "Serie A · Vòng 1 · Sắp diễn ra",
+          "startsAt": "2026-08-23T16:30:00Z",
+          "status": "SCHEDULED"
+        }
+      ],
+      "recentResults": [],
+      "standings": [
+        {
+          "label": "Serie A: Inter",
+          "value": "#1 · 87 điểm",
+          "note": "38 trận · HS +54 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Napoli",
+          "value": "#2 · 76 điểm",
+          "note": "38 trận · HS +22 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Roma",
+          "value": "#3 · 73 điểm",
+          "note": "38 trận · HS +28 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Como 1907",
+          "value": "#4 · 71 điểm",
+          "note": "38 trận · HS +36 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Milan",
+          "value": "#5 · 70 điểm",
+          "note": "38 trận · HS +18 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Juventus",
+          "value": "#6 · 69 điểm",
+          "note": "38 trận · HS +27 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Atalanta",
+          "value": "#7 · 59 điểm",
+          "note": "38 trận · HS +15 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Bologna",
+          "value": "#8 · 56 điểm",
+          "note": "38 trận · HS +3 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Lazio",
+          "value": "#9 · 54 điểm",
+          "note": "38 trận · HS +1 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Udinese",
+          "value": "#10 · 50 điểm",
+          "note": "38 trận · HS -3 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Sassuolo",
+          "value": "#11 · 49 điểm",
+          "note": "38 trận · HS -4 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Torino",
+          "value": "#12 · 45 điểm",
+          "note": "38 trận · HS -19 · Phong độ đang cập nhật"
+        }
+      ]
+    },
+    {
+      "code": "WC",
+      "name": "World Cup",
+      "shortName": "World Cup",
+      "upcomingFixtures": [
+        {
+          "label": "Portugal - Spain",
+          "value": "02:00 7 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-06T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "USA - Belgium",
+          "value": "07:00 7 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-07T00:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Argentina - Egypt",
+          "value": "23:00 7 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-07T16:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Switzerland - Colombia",
+          "value": "03:00 8 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-07T20:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "France - Morocco",
+          "value": "03:00 10 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-09T20:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Đội bóng - Đội bóng",
+          "value": "02:00 11 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-10T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Đội bóng - Đội bóng",
+          "value": "04:00 12 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-11T21:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Đội bóng - Đội bóng",
+          "value": "08:00 12 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-12T01:00:00Z",
+          "status": "TIMED"
+        }
+      ],
+      "recentResults": [
+        {
+          "label": "Brazil - Norway",
+          "value": "1 - 2",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-05T20:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Paraguay - France",
+          "value": "0 - 1",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-04T21:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Canada - Morocco",
+          "value": "0 - 3",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-04T17:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Colombia - Ghana",
+          "value": "1 - 0",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-04T01:30:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Argentina - Cape Verde",
+          "value": "3 - 2",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-03T22:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Australia - Egypt",
+          "value": "3 - 5",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-03T18:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Switzerland - Algeria",
+          "value": "2 - 0",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-03T03:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Portugal - Croatia",
+          "value": "2 - 1",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-02T23:00:00Z",
+          "status": "FINISHED"
+        }
+      ],
+      "standings": [
+        {
+          "label": "World Cup: Mexico",
+          "value": "#1 · 9 điểm",
+          "note": "3 trận · HS +6 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "World Cup: South Africa",
+          "value": "#2 · 4 điểm",
+          "note": "3 trận · HS -1 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "World Cup: Korea Republic",
+          "value": "#3 · 3 điểm",
+          "note": "3 trận · HS -1 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "World Cup: Czechia",
+          "value": "#4 · 1 điểm",
+          "note": "3 trận · HS -4 · Phong độ đang cập nhật"
+        }
+      ]
+    }
+  ],
+  "providerErrors": [],
+  "rateLimits": [
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/PL/matches",
+      "remainingMinute": "9"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/PL/standings",
+      "remainingMinute": "9"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/CL/matches",
+      "remainingMinute": "8"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/CL/standings",
+      "remainingMinute": "7"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/PD/matches",
+      "remainingMinute": "6"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/PD/standings",
+      "remainingMinute": "5"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/SA/matches",
+      "remainingMinute": "4"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/SA/standings",
+      "remainingMinute": "3"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/WC/matches",
+      "remainingMinute": "2"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/WC/standings",
+      "remainingMinute": "1"
+    }
+  ]
+}

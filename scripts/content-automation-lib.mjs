@@ -126,3 +126,127 @@ export function buildFallbackSportsWidgets(date = new Date()) {
     ],
   };
 }
+
+function readFootballDataTeamName(team) {
+  return team?.shortName || team?.name || "Đội bóng";
+}
+
+function formatVietnamTime(value) {
+  return new Date(value).toLocaleString("vi-VN", {
+    dateStyle: "medium",
+    timeStyle: "short",
+    timeZone: "Asia/Ho_Chi_Minh",
+  });
+}
+
+function formatGoalDifference(value) {
+  if (typeof value !== "number") return "HS 0";
+  return `HS ${value > 0 ? "+" : ""}${value}`;
+}
+
+const footballDataStatusLabels = {
+  SCHEDULED: "Sắp diễn ra",
+  TIMED: "Đã có giờ",
+  IN_PLAY: "Đang diễn ra",
+  PAUSED: "Tạm nghỉ",
+  FINISHED: "Đã kết thúc",
+  POSTPONED: "Hoãn",
+  SUSPENDED: "Tạm dừng",
+  CANCELLED: "Hủy",
+};
+
+export function normalizeFootballDataMatch(match, competition) {
+  const home = readFootballDataTeamName(match?.homeTeam);
+  const away = readFootballDataTeamName(match?.awayTeam);
+  const fullTime = match?.score?.fullTime;
+  const hasScore = typeof fullTime?.home === "number" && typeof fullTime?.away === "number";
+  const status = footballDataStatusLabels[match?.status] ?? match?.status ?? "Cập nhật";
+  const round = match?.matchday ? `Vòng ${match.matchday}` : "Lịch thi đấu";
+
+  return {
+    label: `${home} - ${away}`,
+    value: hasScore ? `${fullTime.home} - ${fullTime.away}` : formatVietnamTime(match?.utcDate),
+    note: `${competition?.name ?? "Bóng đá"} · ${round} · ${status}`,
+    startsAt: match?.utcDate,
+    status: match?.status,
+  };
+}
+
+export function normalizeFootballDataStanding(row, competition) {
+  const team = readFootballDataTeamName(row?.team);
+  const played = typeof row?.playedGames === "number" ? `${row.playedGames} trận` : "Chưa rõ số trận";
+  const form = row?.form ? `Phong độ ${row.form}` : "Phong độ đang cập nhật";
+
+  return {
+    label: `${competition?.shortName ?? competition?.name ?? "Bảng xếp hạng"}: ${team}`,
+    value: `#${row?.position ?? "-"} · ${row?.points ?? 0} điểm`,
+    note: `${played} · ${formatGoalDifference(row?.goalDifference)} · ${form}`,
+  };
+}
+
+export function buildFootballDataWidgets({ generatedAt = new Date(), leagues = [], providerErrors = [], rateLimits = [] } = {}) {
+  const upcoming = [];
+  const recent = [];
+  const standings = [];
+
+  for (const league of leagues) {
+    const competition = {
+      name: league.shortName ?? league.name,
+      shortName: league.shortName ?? league.name,
+    };
+
+    for (const match of league.matches ?? []) {
+      const item = normalizeFootballDataMatch(match, competition);
+      if (["SCHEDULED", "TIMED"].includes(match.status)) {
+        upcoming.push(item);
+      }
+      if (["FINISHED", "AWARDED"].includes(match.status)) {
+        recent.push(item);
+      }
+    }
+
+    const totalStanding = (league.standings ?? []).find((standing) => standing.type === "TOTAL") ?? league.standings?.[0];
+    const meaningfulTableRows = (totalStanding?.table ?? []).filter(
+      (row) => (row.playedGames ?? 0) > 0 || (row.points ?? 0) > 0,
+    );
+    for (const row of meaningfulTableRows.slice(0, 3)) {
+      standings.push(normalizeFootballDataStanding(row, competition));
+    }
+  }
+
+  upcoming.sort((a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime());
+  recent.sort((a, b) => new Date(b.startsAt).getTime() - new Date(a.startsAt).getTime());
+
+  return {
+    generatedAt: generatedAt.toISOString(),
+    sourceStatus: "football-data.org",
+    providerErrors,
+    rateLimits,
+    sections: [
+      {
+        id: "upcoming-football",
+        title: "Trận bóng đá sắp tới",
+        description: "Lịch thi đấu lấy từ football-data.org, phù hợp để theo dõi chủ đề Premier League, Champions League, La Liga, Serie A và World Cup.",
+        items: upcoming.slice(0, 8).length
+          ? upcoming.slice(0, 8)
+          : [{ label: "Lịch sắp tới", value: "Chưa có dữ liệu", note: "API chưa trả về trận sắp diễn ra trong lần cập nhật này." }],
+      },
+      {
+        id: "recent-results",
+        title: "Kết quả gần đây",
+        description: "Kết quả trận đấu được dùng làm tín hiệu viết tin thể thao, không dùng như lời khuyên cá cược.",
+        items: recent.slice(0, 8).length
+          ? recent.slice(0, 8)
+          : [{ label: "Kết quả", value: "Chưa có dữ liệu", note: "API chưa trả về kết quả phù hợp trong lần cập nhật này." }],
+      },
+      {
+        id: "standings-snapshot",
+        title: "Bảng xếp hạng nổi bật",
+        description: "Tóm tắt nhóm đầu bảng để hỗ trợ bài phân tích phong độ và bối cảnh trước trận.",
+        items: standings.slice(0, 8).length
+          ? standings.slice(0, 8)
+          : [{ label: "Bảng xếp hạng", value: "Chưa có dữ liệu", note: "API chưa trả về bảng xếp hạng trong lần cập nhật này." }],
+      },
+    ],
+  };
+}

@@ -2,8 +2,11 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  buildFootballDataWidgets,
   buildFallbackSportsWidgets,
   buildPostQualityReport,
+  normalizeFootballDataMatch,
+  normalizeFootballDataStanding,
   requiresSources,
   validatePostQuality,
 } from "./content-automation-lib.mjs";
@@ -71,4 +74,105 @@ test("buildFallbackSportsWidgets returns stable World Cup and fixture sections",
   assert.equal(widgets.sourceStatus, "fallback");
   assert.ok(widgets.sections.some((section) => section.id === "world-cup-2026"));
   assert.ok(widgets.sections.some((section) => section.id === "upcoming-football"));
+});
+
+test("normalizeFootballDataMatch turns scheduled and finished matches into widget items", () => {
+  const scheduled = normalizeFootballDataMatch(
+    {
+      utcDate: "2026-07-12T12:30:00Z",
+      status: "SCHEDULED",
+      matchday: 1,
+      homeTeam: { shortName: "Arsenal", name: "Arsenal FC" },
+      awayTeam: { shortName: "Chelsea", name: "Chelsea FC" },
+      score: { fullTime: { home: null, away: null } },
+    },
+    { name: "Premier League" },
+  );
+  const finished = normalizeFootballDataMatch(
+    {
+      utcDate: "2026-07-10T12:30:00Z",
+      status: "FINISHED",
+      matchday: 1,
+      homeTeam: { shortName: "Liverpool", name: "Liverpool FC" },
+      awayTeam: { shortName: "Man City", name: "Manchester City FC" },
+      score: { fullTime: { home: 2, away: 1 } },
+    },
+    { name: "Premier League" },
+  );
+
+  assert.equal(scheduled.label, "Arsenal - Chelsea");
+  assert.match(scheduled.value, /2026/);
+  assert.match(scheduled.note, /Premier League/);
+  assert.equal(finished.label, "Liverpool - Man City");
+  assert.equal(finished.value, "2 - 1");
+});
+
+test("normalizeFootballDataStanding turns a table row into a compact Vietnamese summary", () => {
+  const item = normalizeFootballDataStanding(
+    {
+      position: 1,
+      team: { shortName: "Liverpool", name: "Liverpool FC" },
+      points: 84,
+      playedGames: 38,
+      goalDifference: 45,
+      form: "WWDLW",
+    },
+    { shortName: "Premier League" },
+  );
+
+  assert.equal(item.label, "Premier League: Liverpool");
+  assert.equal(item.value, "#1 · 84 điểm");
+  assert.match(item.note, /38 trận/);
+  assert.match(item.note, /HS \+45/);
+});
+
+test("buildFootballDataWidgets prioritizes football-data.org sections for homepage widgets", () => {
+  const widgets = buildFootballDataWidgets({
+    generatedAt: new Date("2026-07-06T00:00:00Z"),
+    leagues: [
+      {
+        code: "PL",
+        name: "Premier League",
+        shortName: "Premier League",
+        matches: [
+          {
+            utcDate: "2026-07-12T12:30:00Z",
+            status: "SCHEDULED",
+            matchday: 1,
+            homeTeam: { shortName: "Arsenal", name: "Arsenal FC" },
+            awayTeam: { shortName: "Chelsea", name: "Chelsea FC" },
+            score: { fullTime: { home: null, away: null } },
+          },
+          {
+            utcDate: "2026-07-10T12:30:00Z",
+            status: "FINISHED",
+            matchday: 1,
+            homeTeam: { shortName: "Liverpool", name: "Liverpool FC" },
+            awayTeam: { shortName: "Man City", name: "Manchester City FC" },
+            score: { fullTime: { home: 2, away: 1 } },
+          },
+        ],
+        standings: [
+          {
+            type: "TOTAL",
+            table: [
+              {
+                position: 1,
+                team: { shortName: "Liverpool", name: "Liverpool FC" },
+                points: 84,
+                playedGames: 38,
+                goalDifference: 45,
+                form: "WWDLW",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  });
+
+  assert.equal(widgets.sourceStatus, "football-data.org");
+  assert.ok(widgets.sections.some((section) => section.id === "upcoming-football"));
+  assert.ok(widgets.sections.some((section) => section.id === "recent-results"));
+  assert.ok(widgets.sections.some((section) => section.id === "standings-snapshot"));
 });

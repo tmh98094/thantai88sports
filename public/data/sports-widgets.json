@@ -1,40 +1,230 @@
 {
-  "generatedAt": "2026-07-06T00:00:00.000Z",
-  "sourceStatus": "fallback",
-  "sections": [
+  "generatedAt": "2026-07-06T00:48:15.767Z",
+  "sourceStatus": "football-data.org",
+  "providerErrors": [],
+  "rateLimits": [
     {
-      "id": "world-cup-2026",
-      "title": "World Cup 2026",
-      "description": "Khu vực lịch thi đấu và kết quả World Cup 2026 sẽ được cập nhật khi API miễn phí có dữ liệu phù hợp.",
-      "items": [
-        {
-          "label": "Theo dõi lịch chính thức",
-          "value": "Đang chờ dữ liệu",
-          "note": "Kiểm tra nguồn FIFA hoặc API thể thao trước khi xuất bản tin tức."
-        }
-      ]
+      "provider": "football-data.org",
+      "path": "/competitions/PL/matches",
+      "remainingMinute": "9"
     },
     {
+      "provider": "football-data.org",
+      "path": "/competitions/PL/standings",
+      "remainingMinute": "9"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/CL/matches",
+      "remainingMinute": "8"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/CL/standings",
+      "remainingMinute": "7"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/PD/matches",
+      "remainingMinute": "6"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/PD/standings",
+      "remainingMinute": "5"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/SA/matches",
+      "remainingMinute": "4"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/SA/standings",
+      "remainingMinute": "3"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/WC/matches",
+      "remainingMinute": "2"
+    },
+    {
+      "provider": "football-data.org",
+      "path": "/competitions/WC/standings",
+      "remainingMinute": "1"
+    }
+  ],
+  "sections": [
+    {
       "id": "upcoming-football",
-      "title": "Trận đáng chú ý sắp tới",
-      "description": "Dữ liệu hiển thị ở chế độ dự phòng khi chưa có API key hoặc đã hết quota miễn phí.",
+      "title": "Trận bóng đá sắp tới",
+      "description": "Lịch thi đấu lấy từ football-data.org, phù hợp để theo dõi chủ đề Premier League, Champions League, La Liga, Serie A và World Cup.",
       "items": [
         {
-          "label": "Nguồn dữ liệu",
-          "value": "Chưa kết nối API",
-          "note": "Thêm API_FOOTBALL_KEY hoặc FOOTBALL_DATA_KEY để tự động cập nhật."
+          "label": "Portugal - Spain",
+          "value": "02:00 7 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-06T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "USA - Belgium",
+          "value": "07:00 7 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-07T00:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Argentina - Egypt",
+          "value": "23:00 7 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-07T16:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Switzerland - Colombia",
+          "value": "03:00 8 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-07T20:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "France - Morocco",
+          "value": "03:00 10 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-09T20:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Đội bóng - Đội bóng",
+          "value": "02:00 11 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-10T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Đội bóng - Đội bóng",
+          "value": "04:00 12 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-11T21:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Đội bóng - Đội bóng",
+          "value": "08:00 12 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-12T01:00:00Z",
+          "status": "TIMED"
         }
       ]
     },
     {
       "id": "recent-results",
       "title": "Kết quả gần đây",
-      "description": "Kết quả chỉ nên dùng để tham khảo và cần ghi rõ nguồn dữ liệu khi được cập nhật.",
+      "description": "Kết quả trận đấu được dùng làm tín hiệu viết tin thể thao, không dùng như lời khuyên cá cược.",
       "items": [
         {
-          "label": "Trạng thái",
-          "value": "Chưa có dữ liệu mới",
-          "note": "Widget vẫn hiển thị an toàn để không làm vỡ giao diện."
+          "label": "Brazil - Norway",
+          "value": "1 - 2",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-05T20:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Paraguay - France",
+          "value": "0 - 1",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-04T21:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Canada - Morocco",
+          "value": "0 - 3",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-04T17:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Colombia - Ghana",
+          "value": "1 - 0",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-04T01:30:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Argentina - Cape Verde",
+          "value": "3 - 2",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-03T22:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Australia - Egypt",
+          "value": "3 - 5",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-03T18:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Switzerland - Algeria",
+          "value": "2 - 0",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-03T03:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Portugal - Croatia",
+          "value": "2 - 1",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-02T23:00:00Z",
+          "status": "FINISHED"
+        }
+      ]
+    },
+    {
+      "id": "standings-snapshot",
+      "title": "Bảng xếp hạng nổi bật",
+      "description": "Tóm tắt nhóm đầu bảng để hỗ trợ bài phân tích phong độ và bối cảnh trước trận.",
+      "items": [
+        {
+          "label": "Champions League: Arsenal",
+          "value": "#1 · 24 điểm",
+          "note": "8 trận · HS +19 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Bayern",
+          "value": "#2 · 21 điểm",
+          "note": "8 trận · HS +14 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Champions League: Liverpool",
+          "value": "#3 · 18 điểm",
+          "note": "8 trận · HS +12 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Barça",
+          "value": "#1 · 94 điểm",
+          "note": "38 trận · HS +59 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Real Madrid",
+          "value": "#2 · 86 điểm",
+          "note": "38 trận · HS +42 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "La Liga: Villarreal",
+          "value": "#3 · 72 điểm",
+          "note": "38 trận · HS +26 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Inter",
+          "value": "#1 · 87 điểm",
+          "note": "38 trận · HS +54 · Phong độ đang cập nhật"
+        },
+        {
+          "label": "Serie A: Napoli",
+          "value": "#2 · 76 điểm",
+          "note": "38 trận · HS +22 · Phong độ đang cập nhật"
         }
       ]
     }

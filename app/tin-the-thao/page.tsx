@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleSearch } from "@/components/article-search";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { SportsWidgets } from "@/components/sports-widgets";
+import { SportsLeagueTabs } from "@/components/sports-league-tabs";
 import { breadcrumbJsonLd, buildMetadata, serializeJsonLd } from "@/lib/seo";
 import { getPostSummaries } from "@/lib/posts";
 
@@ -39,7 +39,7 @@ export default function NewsPage() {
               <p>Nội dung evergreen giúp đọc trận, đọc tỷ lệ và quản lý rủi ro tỉnh táo hơn.</p>
             </Link>
           </div>
-          <SportsWidgets />
+          <SportsLeagueTabs />
           <ArticleSearch posts={getPostSummaries()} />
         </div>
       </section>

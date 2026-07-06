@@ -6,7 +6,7 @@ import { ImagePlaceholder } from "@/components/image-placeholder";
 import { PartnerLink } from "@/components/partner-link";
 import { PostCard } from "@/components/post-card";
 import { SectionHeading } from "@/components/section-heading";
-import { SportsWidgets } from "@/components/sports-widgets";
+import { SportsLeagueTabs } from "@/components/sports-league-tabs";
 import { categories, getAllPosts, getFeaturedPosts } from "@/lib/posts";
 import { serializeJsonLd, websiteJsonLd } from "@/lib/seo";
 
@@ -55,7 +55,7 @@ export default function HomePage() {
 
       <section className="section section-sports-widgets" data-gsap="reveal">
         <div className="container">
-          <SportsWidgets />
+          <SportsLeagueTabs />
         </div>
       </section>
 
