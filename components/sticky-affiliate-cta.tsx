@@ -12,7 +12,7 @@ export function StickyAffiliateCta() {
     <div className="sticky-affiliate-shell" data-collapsed={collapsed}>
       <aside aria-label="Truy cập nền tảng đối tác 18+" className="sticky-affiliate-cta">
         <button
-          aria-label="Thu gọn CTA"
+          aria-label="Thu gọn bảng truy cập"
           className="sticky-affiliate-close"
           onClick={() => setCollapsed(true)}
           type="button"

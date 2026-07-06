@@ -12,7 +12,10 @@ import { serializeJsonLd, websiteJsonLd } from "@/lib/seo";
 
 export default function HomePage() {
   const featured = getFeaturedPosts();
-  const latest = getAllPosts().slice(0, 6);
+  const allPosts = getAllPosts();
+  const latest = allPosts.slice(0, 6);
+  const internationalNews = allPosts.filter((post) => post.category === "bong-da-quoc-te").slice(0, 4);
+  const newsRail = (internationalNews.length ? internationalNews : latest).slice(0, 4);
 
   return (
     <>
@@ -39,16 +42,10 @@ export default function HomePage() {
           <div className="hero-visual" data-gsap="reveal">
             <ImagePlaceholder alt="Nữ biên tập viên thể thao Việt Nam tại sân vận động" label="hero-stadium-1600x2000.webp" priority ratio="hero" src="/images/home/hero-stadium-1600x2000.webp" />
             <div className="hero-score-card" data-gsap="lift">
-              <span className="score-label">LỐI TẮT 18+</span>
+              <span className="score-label">Lối tắt 18+</span>
               <strong>Chuyển đến nền tảng đối tác chỉ với một nút bấm</strong>
               <PartnerLink className="text-link" showIcon={false}>Vào ngay <ArrowUpRight /></PartnerLink>
             </div>
-          </div>
-        </div>
-        <div className="container hero-ticker">
-          <span className="ticker-title">ĐANG ĐƯỢC QUAN TÂM</span>
-          <div className="ticker-items">
-            {latest.slice(0, 3).map((post, index) => <Link href={`/tin-the-thao/${post.slug}`} key={post.slug}><b>0{index + 1}</b>{post.title}</Link>)}
           </div>
         </div>
       </section>
@@ -56,6 +53,20 @@ export default function HomePage() {
       <section className="section section-sports-widgets" data-gsap="reveal">
         <div className="container">
           <SportsLeagueTabs />
+          <div className="home-news-rail" aria-label="Tin quốc tế đáng chú ý">
+            <div className="home-news-rail-head">
+              <span>Tin quốc tế sau hub</span>
+              <Link href="/chu-de/bong-da-quoc-te">Xem thêm <ArrowRight /></Link>
+            </div>
+            <div className="home-news-rail-list">
+              {newsRail.map((post, index) => (
+                <Link href={`/tin-the-thao/${post.slug}`} key={post.slug}>
+                  <b>0{index + 1}</b>
+                  <span>{post.title}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -73,9 +84,9 @@ export default function HomePage() {
         <div className="container platform-context-panel">
           <div className="platform-context-copy">
             <span className="eyebrow">Từ nền tảng đối tác</span>
-            <h2>Nền tảng đối tác có khu thể thao, còn Thantai88sport giúp bạn đọc bối cảnh trước khi chuyển sang nền tảng 18+.</h2>
+            <h2>Đọc nhanh bối cảnh thể thao trước khi chuyển sang khu giải trí 18+.</h2>
             <p>
-              Qua kiểm tra giao diện công khai của Thantai688, hệ sinh thái có các nhóm như Thể thao, live casino, game, bắn cá và xổ số. Vì vậy trang này ưu tiên tin tức, lịch thi đấu, kiến thức đọc trận và lưu ý chơi có trách nhiệm trước khi người đọc quyết định truy cập.
+              Thantai88sport gom lịch, kết quả, kiến thức đọc trận và nhắc nhở chơi có trách nhiệm để người đọc trưởng thành đưa ra quyết định tỉnh táo hơn.
             </p>
             <div className="platform-context-actions">
               <PartnerLink>Vào nền tảng Thantai688</PartnerLink>
@@ -86,17 +97,17 @@ export default function HomePage() {
             <article>
               <span>01</span>
               <strong>Khu thể thao</strong>
-              <p>Tập trung vào bối cảnh trước trận, lịch thi đấu và cách đọc thông tin một cách tỉnh táo.</p>
+              <p>Lịch thi đấu, kết quả, phong độ và bối cảnh trước trận.</p>
             </article>
             <article>
               <span>02</span>
               <strong>Nhóm giải trí</strong>
-              <p>Live, game, bắn cá và xổ số được nhắc ở mức danh mục để điều hướng, không đưa ra khẳng định về tỷ lệ thắng.</p>
+              <p>Điều hướng ở mức danh mục; không khẳng định tỷ lệ thắng hay lợi nhuận.</p>
             </article>
             <article>
               <span>03</span>
               <strong>Chơi có trách nhiệm</strong>
-              <p>Mỗi nút truy cập đều đi kèm nhắc nhở 18+, tự đặt ngân sách và không xem bất kỳ phân tích nào là kết quả bảo đảm.</p>
+              <p>Mỗi CTA đi kèm 18+, ngân sách cá nhân và nhắc nhở không xem phân tích là bảo đảm.</p>
             </article>
           </div>
         </div>
@@ -104,7 +115,7 @@ export default function HomePage() {
 
       <section className="section section-categories" data-gsap="reveal">
         <div className="container">
-          <SectionHeading eyebrow="Khám phá theo chủ đề" title="Mỗi góc nhìn, một nhịp thể thao" description="Từ sân cỏ trong nước đến những xu hướng chiến thuật quốc tế." />
+          <SectionHeading eyebrow="Khám phá theo chủ đề" title="Chọn nhanh góc nhìn bạn cần" description="Từ tin quốc tế, bóng đá Việt Nam đến cẩm nang đọc trận." />
           <div className="category-grid">{categories.map((category, index) => <CategoryCard category={category} index={index} key={category.slug} />)}</div>
         </div>
       </section>
@@ -121,7 +132,7 @@ export default function HomePage() {
           <div className="analysis-copy">
             <span className="eyebrow eyebrow-light">Phân tích trước trận</span>
             <h2>Không chỉ nhìn tỷ số.<br />Hãy đọc cả thế trận.</h2>
-            <p>Phong độ, lực lượng, lịch thi đấu và cách vận hành—mọi yếu tố đều cần được đặt trong đúng bối cảnh.</p>
+            <p>Phong độ, lực lượng, lịch thi đấu và cách vận hành đều cần được đặt trong đúng bối cảnh.</p>
             <Link className="button button-light" href="/chu-de/nhan-dinh">Xem chuyên mục nhận định <ArrowRight /></Link>
           </div>
           <div className="analysis-visual"><ImagePlaceholder alt="Nữ chuyên gia phân tích sơ đồ chiến thuật bóng đá" label="analysis-board-1200x1200.webp" ratio="square" src="/images/home/analysis-board-1200x1200.webp" /></div>
