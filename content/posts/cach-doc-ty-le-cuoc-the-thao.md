@@ -55,3 +55,5 @@ Ngoài ra, không nên dùng tiền vay, tiền sinh hoạt hoặc khoản dành
 ## Kết luận: dữ liệu tham khảo, không phải lời hứa
 
 Hiểu tỷ lệ cược thể thao giúp người đọc thấy rõ xác suất ngụ ý, biên và mức rủi ro ẩn sau con số. Kiến thức này không bảo đảm chiến thắng và không biến cá cược thành nguồn thu nhập. Nếu lựa chọn tham gia, hãy chỉ dành cho người từ 18 tuổi trở lên, thực hiện [các bước thiết lập giới hạn ngân sách](/tin-the-thao/thiet-lap-gioi-han-ngan-sach-ca-cuoc) và kiểm tra [tiêu chí đánh giá một nền tảng](/tin-the-thao/tieu-chi-chon-nen-tang-ca-cuoc-the-thao) trước khi bắt đầu. Khi cảm thấy mất kiểm soát, hãy khóa quyền truy cập nếu nền tảng hỗ trợ và tìm sự giúp đỡ từ người đáng tin cậy hoặc dịch vụ hỗ trợ phù hợp.
+
+Bước tiếp theo nên là đọc [trang nền tảng thể thao 18+](/ca-cuoc-the-thao) để hiểu rõ luồng liên kết đối tác, điều kiện 18+ và lý do cần giữ mọi quyết định trong phạm vi giải trí có thể mất tiền.

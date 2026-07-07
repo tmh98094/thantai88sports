@@ -57,3 +57,5 @@ Bạn cũng nên dừng khi đang tức giận, buồn bã, mất ngủ, dùng r
 Mỗi tháng, hãy xem lại tổng chi, thời gian và ảnh hưởng đến cuộc sống. Khi thu nhập giảm, phát sinh hóa đơn hoặc tâm lý không ổn định, ngân sách nên giảm theo, có thể về bằng không. Giới hạn không phải cam kết phải sử dụng hết; số tiền chưa dùng nên được giữ lại, không cần “tận dụng”.
 
 Một ngân sách có trách nhiệm phải bảo vệ nhu cầu thiết yếu, duy trì được ngay cả khi kết quả xấu và cho phép dừng mà không tiếc nuối. Hãy xem lại [các dấu hiệu hành vi cá cược rủi ro](/tin-the-thao/dau-hieu-hanh-vi-ca-cuoc-rui-ro) và [hướng dẫn chơi có trách nhiệm](/choi-co-trach-nhiem) trước khi coi một giới hạn là đủ. Nếu cá cược gây căng thẳng, xung đột, vay mượn hoặc thôi thúc gỡ lỗ, hãy ngừng tham gia và tìm hỗ trợ phù hợp. Giữ hoạt động ở phạm vi giải trí 18+ luôn quan trọng hơn bất kỳ tỷ lệ hay trận đấu nào.
+
+Trước khi dùng CTA thương mại, hãy đọc [trang nền tảng thể thao 18+](/ca-cuoc-the-thao) để hiểu rõ liên kết đối tác, điều kiện 18+ và lý do giới hạn cá nhân phải được đặt trước khi tham gia.

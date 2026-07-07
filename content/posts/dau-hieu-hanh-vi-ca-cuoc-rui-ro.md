@@ -63,3 +63,5 @@ Tìm hỗ trợ sớm là một quyết định chủ động, không phải đi
 Hãy hỏi: tôi có dùng nhiều tiền hoặc thời gian hơn dự định không; tôi có cố gỡ lỗ không; tôi có che giấu không; hoạt động có ảnh hưởng giấc ngủ, trách nhiệm hoặc quan hệ không; tôi có thể dừng một tháng mà không bồn chồn không? Chỉ cần một câu trả lời khiến bạn lo ngại cũng đủ để tạo khoảng nghỉ và xem xét hỗ trợ.
 
 Không có trận đấu nào quan trọng hơn sự an toàn tài chính và tinh thần. Nếu cá cược không còn vui, cách tốt nhất không phải tìm một chiến thuật mới mà là dừng lại, tăng rào cản truy cập và kết nối với người có thể giúp bạn. Hãy xem [hướng dẫn chơi có trách nhiệm](/choi-co-trach-nhiem) và dùng [các giới hạn ngân sách, thời gian và mức thua](/tin-the-thao/thiet-lap-gioi-han-ngan-sach-ca-cuoc) như công cụ phòng ngừa, không phải cách trì hoãn việc tìm hỗ trợ.
+
+Nếu bạn vẫn cân nhắc rời website qua CTA, hãy đọc [trang nền tảng thể thao 18+](/ca-cuoc-the-thao) trước để hiểu đây là liên kết đối tác và chỉ nên tiếp tục khi hoạt động còn nằm trong giới hạn an toàn.

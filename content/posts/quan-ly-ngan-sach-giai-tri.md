@@ -86,3 +86,5 @@ Chỉ một câu trả lời “Có” cũng đáng để tạo khoảng nghỉ 
 Bạn có thể sao chép các bảng vào sổ, bảng tính hoặc ứng dụng ghi chú. Không lưu mật khẩu, mã xác thực, số thẻ đầy đủ hay giấy tờ định danh trong cùng tệp. Nếu chia sẻ bảng với người hỗ trợ, hãy che thông tin tài khoản và chỉ giữ dữ liệu cần thiết để nhìn thấy xu hướng.
 
 Mẫu chỉ có ích khi số liệu được ghi đầy đủ và được dùng để dừng, không phải để biện minh cho việc tiếp tục. Khi thu nhập giảm, phát sinh chi phí, tâm trạng bất ổn hoặc giới hạn liên tục bị phá vỡ, hãy hạ ngân sách về 0, sử dụng công cụ tạm nghỉ hoặc tự loại trừ nếu có, và kết nối với người đáng tin cậy hay dịch vụ chuyên môn phù hợp.
+
+Nếu bạn đang xem xét bất kỳ nút chuyển sang đối tác nào, hãy đọc [trang nền tảng thể thao 18+](/ca-cuoc-the-thao) trước để hiểu rõ rủi ro, disclosure tiếp thị liên kết và quyền dừng lại bất cứ lúc nào.

@@ -9,8 +9,9 @@ const markdown = buildDraftMarkdown({
     "Một bài guide evergreen giúp người đọc Việt Nam hiểu lịch thi đấu dày, di chuyển, nghỉ ngơi và xoay tua đội hình ảnh hưởng thế nào đến nhận định trước trận. Không đưa dự đoán chắc thắng.",
   internalLinks: [
     "/ca-cuoc-the-thao",
-    "/choi-co-trach-nhiem",
+    "/tin-the-thao/nhan-dinh-truoc-tran-can-xem-gi",
     "/tin-the-thao/phan-tich-lich-thi-dau-va-the-luc",
+    "/choi-co-trach-nhiem",
   ],
   generatedAt: date,
 });

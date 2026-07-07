@@ -31,6 +31,21 @@ const safeNewsPost = {
     "Bài viết này tóm tắt thông tin thể thao cho độc giả trưởng thành. Nội dung chỉ dùng để tham khảo, không bảo đảm kết quả và không thay thế việc kiểm tra nguồn chính thức trước khi theo dõi trận đấu.",
 };
 
+const linkedNewsPost = {
+  ...safeNewsPost,
+  category: "bong-da-quoc-te",
+  body:
+    `${safeNewsPost.body} Xem thÃªm [cÃ¡ch Ä‘á»c tháº¿ tráº­n](/tin-the-thao/cach-doc-the-tran-bong-da), [chá»§ Ä‘á» bÃ³ng Ä‘Ã¡ quá»‘c táº¿](/chu-de/bong-da-quoc-te) vÃ  [trang cáº­p nháº­t ná»n táº£ng Ä‘á»‘i tÃ¡c](/ca-cuoc-the-thao).`,
+};
+
+const validInternalPaths = new Set([
+  "/ca-cuoc-the-thao",
+  "/chu-de/bong-da-quoc-te",
+  "/tin-the-thao/cach-doc-the-tran-bong-da",
+  "/tin-the-thao/lich-thi-dau-world-cup-2026-hom-nay",
+  "/tin-the-thao/tin-khong-nguon",
+]);
+
 test("requiresSources returns true only for news content", () => {
   assert.equal(requiresSources("news"), true);
   assert.equal(requiresSources("analysis"), false);
@@ -38,7 +53,7 @@ test("requiresSources returns true only for news content", () => {
 });
 
 test("validatePostQuality accepts Vietnamese news with source references", () => {
-  assert.deepEqual(validatePostQuality(safeNewsPost), []);
+  assert.deepEqual(validatePostQuality(linkedNewsPost, { validInternalPaths }), []);
 });
 
 test("validatePostQuality rejects news posts without sources", () => {
@@ -56,11 +71,59 @@ test("validatePostQuality rejects banned guaranteed-win claims", () => {
   assert.ok(errors.some((error) => error.includes("claim")));
 });
 
+test("validatePostQuality rejects posts without contextual internal links", () => {
+  const errors = validatePostQuality(safeNewsPost, { validInternalPaths });
+
+  assert.ok(errors.some((error) => error.includes("3 unique internal links")));
+});
+
+test("validatePostQuality rejects posts missing the affiliate landing CTA link", () => {
+  const errors = validatePostQuality(
+    {
+      ...linkedNewsPost,
+      body:
+        `${safeNewsPost.body} Tham kháº£o [cÃ¡ch Ä‘á»c tháº¿ tráº­n](/tin-the-thao/cach-doc-the-tran-bong-da), [chá»§ Ä‘á» bÃ³ng Ä‘Ã¡ quá»‘c táº¿](/chu-de/bong-da-quoc-te) vÃ  [tin thá»ƒ thao liÃªn quan](/tin-the-thao/tin-khong-nguon).`,
+    },
+    { validInternalPaths },
+  );
+
+  assert.ok(errors.some((error) => error.includes("/ca-cuoc-the-thao")));
+});
+
+test("validatePostQuality rejects posts that link to themselves", () => {
+  const errors = validatePostQuality(
+    {
+      ...linkedNewsPost,
+      body:
+        `${safeNewsPost.body} Tham kháº£o [bÃ i hiá»‡n táº¡i](/tin-the-thao/lich-thi-dau-world-cup-2026-hom-nay), [chá»§ Ä‘á» bÃ³ng Ä‘Ã¡ quá»‘c táº¿](/chu-de/bong-da-quoc-te) vÃ  [trang ná»n táº£ng Ä‘á»‘i tÃ¡c](/ca-cuoc-the-thao).`,
+    },
+    { validInternalPaths },
+  );
+
+  assert.ok(errors.some((error) => error.includes("must not link to itself")));
+});
+
+test("validatePostQuality rejects missing internal routes", () => {
+  const errors = validatePostQuality(
+    {
+      ...linkedNewsPost,
+      body:
+        `${safeNewsPost.body} Tham kháº£o [cÃ¡ch Ä‘á»c tháº¿ tráº­n](/tin-the-thao/cach-doc-the-tran-bong-da), [bÃ i khÃ´ng tá»“n táº¡i](/tin-the-thao/khong-ton-tai) vÃ  [trang ná»n táº£ng Ä‘á»‘i tÃ¡c](/ca-cuoc-the-thao).`,
+    },
+    { validInternalPaths },
+  );
+
+  assert.ok(errors.some((error) => error.includes("missing internal routes")));
+});
+
 test("buildPostQualityReport summarizes post failures for schedules", () => {
-  const report = buildPostQualityReport([
-    safeNewsPost,
-    { ...safeNewsPost, slug: "tin-khong-nguon", sourceRefs: [] },
-  ]);
+  const report = buildPostQualityReport(
+    [
+      linkedNewsPost,
+      { ...linkedNewsPost, slug: "tin-khong-nguon", sourceRefs: [] },
+    ],
+    { validInternalPaths },
+  );
 
   assert.equal(report.total, 2);
   assert.equal(report.failed, 1);

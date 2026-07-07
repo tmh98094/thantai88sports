@@ -22,6 +22,13 @@ const topics = [
   "Checklist quản lý ngân sách khi xem kèo thể thao",
 ];
 
+const internalLinkPack = [
+  "/ca-cuoc-the-thao",
+  "/tin-the-thao/nhan-dinh-truoc-tran-can-xem-gi",
+  "/tin-the-thao/phan-tich-lich-thi-dau-va-the-luc",
+  "/choi-co-trach-nhiem",
+];
+
 const markdown = buildReportMarkdown({
   title: "Brief nội dung thể thao",
   siteName: "Thantai88sports",
@@ -34,11 +41,13 @@ const markdown = buildReportMarkdown({
       lines: topics.map((topic) => `${topic} — dùng nguồn dữ liệu miễn phí nếu có, tránh claim chắc thắng.`),
     },
     {
-      heading: "CTA và internal link",
+      heading: "CTA và internal link bắt buộc",
       lines: [
-        "CTA chính nên dùng ngôn ngữ mềm: “Xem nền tảng thể thao” hoặc “Tìm hiểu thêm”.",
-        "Mỗi brief nên liên kết về /ca-cuoc-the-thao, /choi-co-trach-nhiem và 1–2 bài guide liên quan.",
-        "Nêu rõ link đối tác dẫn sang nền tảng ngoài, không phải trang vận hành trò chơi.",
+        "Mỗi brief/bài mới phải có ít nhất 3 internal links trong body.",
+        "Bắt buộc có /ca-cuoc-the-thao như CTA mềm trong nội dung; nút trực tiếp vẫn dùng /go/platform.",
+        "Thêm 1–2 link bài viết hoặc chủ đề liên quan để tạo cụm nội dung SEO.",
+        "Nếu bài có ngữ cảnh cá cược, thêm /choi-co-trach-nhiem hoặc một bài guide quản lý ngân sách.",
+        `Link pack mặc định: ${internalLinkPack.join(", ")}.`,
       ],
     },
   ],

@@ -9,11 +9,62 @@ const bannedClaimPatterns = [
 
 const vietnameseSignalPattern = /[ăâđêôơưáàảãạắằẳẵặấầẩẫậéèẻẽẹếềểễệíìỉĩịóòỏõọốồổỗộớờởỡợúùủũụứừửữựýỳỷỹỵ]/i;
 
+const defaultStaticInternalPaths = new Set([
+  "/",
+  "/18-plus",
+  "/ca-cuoc-the-thao",
+  "/chinh-sach-bien-tap",
+  "/choi-co-trach-nhiem",
+  "/cookie",
+  "/dieu-khoan",
+  "/gioi-thieu",
+  "/lien-he",
+  "/quyen-rieng-tu",
+  "/tac-gia/ban-bien-tap",
+  "/tin-the-thao",
+  "/tin-the-thao/bai-viet",
+  "/tin-the-thao/tin-moi",
+]);
+
+export function normalizeInternalHref(href) {
+  if (typeof href !== "string") return null;
+  const trimmed = href.trim();
+  if (!trimmed.startsWith("/") || trimmed.startsWith("//")) return null;
+
+  const withoutFragment = trimmed.split("#")[0];
+  const withoutQuery = withoutFragment.split("?")[0];
+  if (!withoutQuery) return "/";
+
+  return withoutQuery.length > 1 ? withoutQuery.replace(/\/+$/u, "") : withoutQuery;
+}
+
+export function extractMarkdownInternalLinks(markdown = "") {
+  const links = [];
+
+  for (const match of String(markdown).matchAll(/\[[^\]]+\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)) {
+    const normalized = normalizeInternalHref(match[1]);
+    if (normalized) links.push(normalized);
+  }
+
+  return links;
+}
+
+export function buildKnownInternalPaths(posts = []) {
+  const paths = new Set(defaultStaticInternalPaths);
+
+  for (const post of posts) {
+    if (post?.slug) paths.add(`/tin-the-thao/${post.slug}`);
+    if (post?.category) paths.add(`/chu-de/${post.category}`);
+  }
+
+  return paths;
+}
+
 export function requiresSources(contentType) {
   return contentType === "news";
 }
 
-export function validatePostQuality(post) {
+export function validatePostQuality(post, { validInternalPaths } = {}) {
   const errors = [];
   const searchable = [
     post.title,
@@ -54,13 +105,46 @@ export function validatePostQuality(post) {
     }
   }
 
+  const bodyInternalLinks = [...new Set(extractMarkdownInternalLinks(post.body))];
+  const selfPath = post.slug ? `/tin-the-thao/${post.slug}` : null;
+  const knownPaths =
+    validInternalPaths instanceof Set
+      ? validInternalPaths
+      : Array.isArray(validInternalPaths)
+        ? new Set(validInternalPaths)
+        : undefined;
+
+  if (bodyInternalLinks.length < 3) {
+    errors.push("article body requires at least 3 unique internal links");
+  }
+
+  if (!bodyInternalLinks.includes("/ca-cuoc-the-thao")) {
+    errors.push("article body requires /ca-cuoc-the-thao CTA link");
+  }
+
+  if (!bodyInternalLinks.some((href) => href.startsWith("/tin-the-thao/") || href.startsWith("/chu-de/"))) {
+    errors.push("article body requires at least one editorial article or category link");
+  }
+
+  if (selfPath && bodyInternalLinks.includes(selfPath)) {
+    errors.push("article body must not link to itself");
+  }
+
+  if (knownPaths) {
+    const missingRoutes = bodyInternalLinks.filter((href) => !knownPaths.has(href));
+    if (missingRoutes.length) {
+      errors.push(`article body links to missing internal routes: ${missingRoutes.join(", ")}`);
+    }
+  }
+
   return errors;
 }
 
-export function buildPostQualityReport(posts) {
+export function buildPostQualityReport(posts, { validInternalPaths } = {}) {
+  const knownPaths = validInternalPaths ?? buildKnownInternalPaths(posts);
   const results = posts.map((post) => ({
     slug: post.slug,
-    errors: validatePostQuality(post),
+    errors: validatePostQuality(post, { validInternalPaths: knownPaths }),
   }));
   const failed = results.filter((result) => result.errors.length).length;
   const passed = results.length - failed;

@@ -49,3 +49,5 @@ Thông tin đội hình chính thức cũng rất quan trọng. Một đội thi
 ## Theo dõi bóng đá với góc nhìn cân bằng
 
 Lợi thế sân nhà giúp bổ sung bối cảnh, không phải công thức đảm bảo chiến thắng. Người xem nên kết hợp điều kiện sân bãi, khí hậu, thể lực, lực lượng và chiến thuật để hình thành góc nhìn riêng. Bài [phân tích lịch thi đấu và thể lực](/tin-the-thao/phan-tich-lich-thi-dau-va-the-luc) giúp làm rõ tác động của di chuyển, còn [khung nhận định trước trận](/tin-the-thao/nhan-dinh-truoc-tran-can-xem-gi) đặt sân bãi cạnh các biến số khác. Nếu tham gia các hình thức giải trí có dự đoán, hãy đặt giới hạn rõ ràng, coi thông tin là tham khảo và không chạy theo kết quả ngắn hạn.
+
+Trước khi chuyển sang CTA đối tác, hãy xem [trang nền tảng thể thao 18+](/ca-cuoc-the-thao) để hiểu rõ phạm vi nội dung, cảnh báo rủi ro và nguyên tắc chỉ dành cho người trưởng thành.
