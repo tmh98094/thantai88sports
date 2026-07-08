@@ -49,7 +49,7 @@ export function breadcrumbJsonLd(items: Array<{ name: string; path: string }>) {
 export function articleJsonLd(post: Post) {
   return {
     "@context": "https://schema.org",
-    "@type": post.contentType === "news" ? "NewsArticle" : post.contentType === "analysis" ? "Article" : "BlogPosting",
+    "@type": post.contentType === "news" ? "NewsArticle" : "BlogPosting",
     headline: post.title,
     description: post.description,
     image: [absoluteUrl(post.image)],

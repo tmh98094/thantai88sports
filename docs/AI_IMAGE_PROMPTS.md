@@ -211,3 +211,83 @@ Attach this PNG as a reference image whenever you submit one of the prompts belo
 - **Generation prompt:** Create a wide premium photorealistic adult football glamour image featuring an unmistakably adult Vietnamese or Southeast Asian woman age 25–35, non-nude, wearing a black satin corset top, short gold skirt, and open emerald jacket. Give her a seductive flirtatious expression and direct eye contact while posing in front of a large simplified tactical pitch graphic. Keep her on the right half and visually dominant, use cinematic green and gold stadium lighting, and preserve the top-left for the brand logo.
 - **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
 - **Vietnamese alt text:** `Nữ chuyên gia trình bày các xu hướng chiến thuật bóng đá quốc tế hiện đại`
+
+### 18. Argentina vs Egypt — Pre-Match Board
+
+- **Output path:** `public/images/posts/argentina-egypt-world-cup-2026-truoc-tran.webp`
+- **Filename:** `argentina-egypt-world-cup-2026-truoc-tran.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide premium photorealistic adult sports glamour image featuring an unmistakably adult Vietnamese woman age 25-35, non-nude, wearing a fitted emerald crop top under an open black blazer. Give her a playful flirtatious expression and direct eye contact while standing beside a clean tactical board marked Argentina vs Egypt. Keep the football graphics simple, make the model dominant, use green and gold stadium light, and reserve calm top-left space for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Bàn phân tích chiến thuật trước trận Argentina gặp Egypt với sân bóng và ánh đèn World Cup`
+
+### 19. Mexico vs England — Scoreboard
+
+- **Output path:** `public/images/posts/mexico-england-world-cup-2026-ket-qua-2-3.webp`
+- **Filename:** `mexico-england-world-cup-2026-ket-qua-2-3.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide premium photorealistic adult football glamour image featuring an unmistakably adult Vietnamese woman age 25-35, non-nude, wearing a red satin camisole and emerald mini skirt. Give her a naughty playful smile and direct eye contact while posing near a stadium scoreboard showing Mexico 2-3 England. Keep the scoreboard secondary, use cinematic floodlights, and leave top-left space for the attached logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Sân bóng World Cup với bảng điểm Mexico 2-3 England và ánh đèn thể thao nổi bật`
+
+### 20. Portugal vs Spain — Night Stadium
+
+- **Output path:** `public/images/posts/portugal-spain-world-cup-2026-ket-qua-0-1.webp`
+- **Filename:** `portugal-spain-world-cup-2026-ket-qua-0-1.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide premium photorealistic adult sports glamour image featuring an unmistakably adult Vietnamese or Southeast Asian woman age 25-35, non-nude, wearing a black lace camisole beneath an open emerald jacket. Give her a teasing flirtatious expression and direct eye contact beside a night stadium screen showing Portugal 0-1 Spain. Use green, red, and gold light, keep the model dominant, and preserve top-left logo space.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Sân vận động World Cup ban đêm với bảng điểm Portugal 0-1 Spain nổi bật trên nền khán đài`
+
+### 21. Switzerland vs Colombia — Fixture Desk
+
+- **Output path:** `public/images/posts/switzerland-colombia-world-cup-2026-cach-doc-lich.webp`
+- **Filename:** `switzerland-colombia-world-cup-2026-cach-doc-lich.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide premium photorealistic adult match-planning glamour image featuring an unmistakably adult Vietnamese woman age 25-35, non-nude, wearing an emerald bodysuit under an open satin shirt. Give her a playful flirtatious expression and direct eye contact while sitting at a desk with a fixture note for Switzerland vs Colombia. Use a blurred stadium background, warm gold lighting, and top-left space for the attached logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Bàn theo dõi lịch thi đấu Switzerland gặp Colombia với sổ ghi chú và ánh đèn sân vận động`
+
+### 22. Brazil vs Norway — Result Feature
+
+- **Output path:** `public/images/posts/brazil-norway-world-cup-2026-ket-qua-1-2.webp`
+- **Filename:** `brazil-norway-world-cup-2026-ket-qua-1-2.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide premium photorealistic adult World Cup glamour image featuring an unmistakably adult Vietnamese woman age 25-35, non-nude, wearing a gold satin corset top and emerald skirt. Give her a seductive playful expression and direct eye contact while a clean stadium board behind her shows Brazil 1-2 Norway. Keep the model sharp and dominant, the board readable but secondary, and the top-left open for the logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Minh họa sân vận động World Cup với bảng điểm Brazil 1-2 Norway theo phong cách thể thao hiện đại`
+
+### 23. Canada vs Morocco — Result Feature
+
+- **Output path:** `public/images/posts/canada-morocco-world-cup-2026-ket-qua-0-3.webp`
+- **Filename:** `canada-morocco-world-cup-2026-ket-qua-0-3.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide premium photorealistic adult football glamour image featuring an unmistakably adult Vietnamese or Southeast Asian woman age 25-35, non-nude, wearing a fitted red crop top under an emerald blazer. Give her a naughty confident smile and direct eye contact near a stylized scoreboard for Canada 0-3 Morocco. Use stadium lights, green and red color accents, and calm top-left space for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Minh họa sân bóng World Cup với tỷ số Canada 0-3 Morocco và màu sắc thể thao xanh đỏ`
+
+### 24. Colombia vs Ghana — Result Feature
+
+- **Output path:** `public/images/posts/colombia-ghana-world-cup-2026-ket-qua-1-0.webp`
+- **Filename:** `colombia-ghana-world-cup-2026-ket-qua-1-0.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide premium photorealistic adult football glamour image featuring an unmistakably adult Vietnamese woman age 25-35, non-nude, wearing a black camisole, emerald jacket, and short gold skirt. Give her a playful flirtatious expression and direct eye contact while standing beside a stadium screen for Colombia 1-0 Ghana. Keep the match graphics clean, make the model the focal point, and reserve the top-left for the logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Minh họa trận Colombia gặp Ghana tại World Cup 2026 với bảng điểm 1-0 trên sân vận động`
+
+### 25. Paraguay vs France — Night Result
+
+- **Output path:** `public/images/posts/paraguay-france-world-cup-2026-ket-qua-0-1.webp`
+- **Filename:** `paraguay-france-world-cup-2026-ket-qua-0-1.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide premium photorealistic adult night-stadium glamour image featuring an unmistakably adult Vietnamese or Southeast Asian woman age 25-35, non-nude, wearing an emerald satin corset blouse and fitted black skirt. Give her a teasing seductive expression and direct eye contact while the stadium background shows a clean Paraguay vs France result graphic. Use moody green and gold floodlights, keep her dominant, and leave top-left room for the attached logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Minh họa trận Paraguay gặp France tại World Cup 2026 với không khí sân vận động ban đêm`

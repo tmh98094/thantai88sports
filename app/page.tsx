@@ -84,9 +84,19 @@ export default function HomePage() {
         <div className="container platform-context-panel">
           <div className="platform-context-copy">
             <span className="eyebrow">Từ nền tảng đối tác</span>
-            <h2>Đọc nhanh bối cảnh thể thao trước khi chuyển sang khu giải trí 18+.</h2>
+            <h2>Nền tảng đối tác có khu thể thao. Hãy đọc bối cảnh trước khi chuyển sang nền tảng 18+.</h2>
             <p>
               Thantai88sport gom lịch, kết quả, kiến thức đọc trận và nhắc nhở chơi có trách nhiệm để người đọc trưởng thành đưa ra quyết định tỉnh táo hơn.
+              Thể thao, live casino, game, bắn cá và xổ số có nhịp trải nghiệm khác nhau, nên trang này chỉ dùng bối cảnh ở mức danh mục và không hứa hẹn kết quả.
+              Nếu cần xác minh thương hiệu hoặc thao tác tài khoản, hãy xem{" "}
+              <a href="https://thantai88.online/" rel="noopener noreferrer">
+                Thantai88 chính thức
+              </a>
+              . Nếu muốn so sánh sảnh casino và bonus, hãy đọc{" "}
+              <a href="https://thantai88.group/danh-gia" rel="noopener noreferrer">
+                review hub Thantai88 Group
+              </a>
+              .
             </p>
             <div className="platform-context-actions">
               <PartnerLink>Vào nền tảng Thantai688</PartnerLink>
@@ -107,7 +117,7 @@ export default function HomePage() {
             <article>
               <span>03</span>
               <strong>Chơi có trách nhiệm</strong>
-              <p>Mỗi CTA đi kèm 18+, ngân sách cá nhân và nhắc nhở không xem phân tích là bảo đảm.</p>
+              <p>Mỗi nút truy cập đi kèm 18+, ngân sách cá nhân và nhắc nhở không xem phân tích là bảo đảm.</p>
             </article>
           </div>
         </div>

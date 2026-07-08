@@ -27,7 +27,7 @@ describe("image asset contract", () => {
     expect(html).toContain('alt="Nữ chuyên gia phân tích sơ đồ chiến thuật bóng đá"');
   });
 
-  it("keeps the 17-file prompt catalog synchronized with the site manifest", () => {
+  it("keeps the prompt catalog synchronized with the site manifest", () => {
     const catalog = readFileSync(resolve(process.cwd(), "docs/AI_IMAGE_PROMPTS.md"), "utf8");
     const documentedPaths = [...catalog.matchAll(/\*\*Output path:\*\* `public(\/images\/[^`]+)`/g)].map((match) => match[1]);
     const expectedPaths = [
@@ -47,7 +47,8 @@ describe("image asset contract", () => {
     const catalog = readFileSync(resolve(process.cwd(), "docs/AI_IMAGE_PROMPTS.md"), "utf8");
     const entries = catalog.split(/^### \d+\. /m).slice(1);
 
-    expect(entries).toHaveLength(17);
+    const expectedEntries = 3 + posts.length;
+    expect(entries).toHaveLength(expectedEntries);
     expect(catalog).not.toContain("Negative constraints");
     for (const entry of entries) {
       expect(entry).toContain("**Generation prompt:**");

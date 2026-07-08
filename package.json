@@ -23,7 +23,8 @@
     "content:drafts": "node scripts/content-drafts.mjs",
     "links:audit": "node scripts/links-audit.mjs",
     "api:sports-cache": "node scripts/api-sports-cache.mjs",
-    "content:daily-check": "node scripts/content-quality-check.mjs"
+    "content:daily-check": "node scripts/content-quality-check.mjs && node scripts/seo-ecosystem-check.mjs",
+    "seo:ecosystem": "node scripts/seo-ecosystem-check.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

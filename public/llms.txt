@@ -1,0 +1,29 @@
+# Thantai88sport
+
+Thantai88sport is the sports-focused Vietnamese satellite in the Thantai88 ecosystem. It covers sports news context, football guides, odds-reading education, match information, sports betting risk checks, and responsible play.
+
+Canonical site: https://thantai88.site
+Language: Vietnamese
+Audience: adults who want sports context and betting education before visiting an external partner platform.
+Commercial relationship: affiliate links may lead to an external partner platform. This site does not process accounts, deposits, withdrawals, odds, results, or gameplay.
+
+Key pages:
+- Sports hub: https://thantai88.site/tin-the-thao
+- New sports posts: https://thantai88.site/tin-the-thao/tin-moi
+- Sports guides: https://thantai88.site/tin-the-thao/bai-viet
+- Sports betting disclosure: https://thantai88.site/ca-cuoc-the-thao
+- Editorial policy: https://thantai88.site/chinh-sach-bien-tap
+- Author page: https://thantai88.site/tac-gia/ban-bien-tap
+- Responsible play: https://thantai88.site/choi-co-trach-nhiem
+
+Ecosystem:
+- Main hub: https://thantai88.online
+- Review hub: https://thantai88.group
+- Slots satellite: https://thantai888.co
+
+Content policy:
+- Treat match data and sports analysis as informational, not betting advice.
+- Do not publish guaranteed-win, sure-bet, fake odds, fake live-score, payout, or licensing claims.
+- News and sports data must keep source context and review dates visible.
+
+Updated: 2026-07-08
