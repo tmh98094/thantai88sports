@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-08T02:04:26.378Z",
+  "generatedAt": "2026-07-11T02:02:42.309Z",
   "sourceStatus": "football-data.org",
   "providerErrors": [],
   "rateLimits": [
     {
       "provider": "football-data.org",
-      "path": "/competitions/PL/matches?dateFrom=2026-06-24&dateTo=2026-07-29",
+      "path": "/competitions/PL/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
       "remainingMinute": "9"
     },
     {
@@ -15,43 +15,43 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/CL/matches?dateFrom=2026-06-24&dateTo=2026-07-29",
-      "remainingMinute": "9"
+      "path": "/competitions/CL/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
+      "remainingMinute": "8"
     },
     {
       "provider": "football-data.org",
       "path": "/competitions/CL/standings",
-      "remainingMinute": "9"
+      "remainingMinute": "7"
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/PD/matches?dateFrom=2026-06-24&dateTo=2026-07-29",
-      "remainingMinute": "9"
+      "path": "/competitions/PD/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
+      "remainingMinute": "6"
     },
     {
       "provider": "football-data.org",
       "path": "/competitions/PD/standings",
-      "remainingMinute": "9"
+      "remainingMinute": "5"
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/SA/matches?dateFrom=2026-06-24&dateTo=2026-07-29",
-      "remainingMinute": "9"
+      "path": "/competitions/SA/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
+      "remainingMinute": "4"
     },
     {
       "provider": "football-data.org",
       "path": "/competitions/SA/standings",
-      "remainingMinute": "9"
+      "remainingMinute": "3"
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/WC/matches?dateFrom=2026-06-24&dateTo=2026-07-29",
-      "remainingMinute": "9"
+      "path": "/competitions/WC/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
+      "remainingMinute": "2"
     },
     {
       "provider": "football-data.org",
       "path": "/competitions/WC/standings",
-      "remainingMinute": "9"
+      "remainingMinute": "1"
     }
   ],
   "sections": [
@@ -61,20 +61,6 @@
       "description": "Lịch thi đấu lấy từ football-data.org, phù hợp để theo dõi chủ đề Premier League, Champions League, La Liga, Serie A và World Cup.",
       "items": [
         {
-          "label": "France - Morocco",
-          "value": "03:00 10 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-09T20:00:00Z",
-          "status": "TIMED"
-        },
-        {
-          "label": "Spain - Belgium",
-          "value": "02:00 11 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-10T19:00:00Z",
-          "status": "TIMED"
-        },
-        {
           "label": "Norway - England",
           "value": "04:00 12 thg 7, 2026",
           "note": "World Cup · Lịch thi đấu · Đã có giờ",
@@ -82,14 +68,14 @@
           "status": "TIMED"
         },
         {
-          "label": "Đội bóng - Đội bóng",
+          "label": "Argentina - Switzerland",
           "value": "08:00 12 thg 7, 2026",
           "note": "World Cup · Lịch thi đấu · Đã có giờ",
           "startsAt": "2026-07-12T01:00:00Z",
           "status": "TIMED"
         },
         {
-          "label": "Đội bóng - Đội bóng",
+          "label": "France - Đội bóng",
           "value": "02:00 15 thg 7, 2026",
           "note": "World Cup · Lịch thi đấu · Đã có giờ",
           "startsAt": "2026-07-14T19:00:00Z",
@@ -123,6 +109,20 @@
       "title": "Kết quả gần đây",
       "description": "Kết quả trận đấu được dùng làm tín hiệu viết tin thể thao, không dùng như lời khuyên cá cược.",
       "items": [
+        {
+          "label": "Spain - Belgium",
+          "value": "2 - 1",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-10T19:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "France - Morocco",
+          "value": "2 - 0",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-09T20:00:00Z",
+          "status": "FINISHED"
+        },
         {
           "label": "Switzerland - Colombia",
           "value": "4 - 3",
@@ -163,20 +163,6 @@
           "value": "1 - 2",
           "note": "World Cup · Lịch thi đấu · Đã kết thúc",
           "startsAt": "2026-07-05T20:00:00Z",
-          "status": "FINISHED"
-        },
-        {
-          "label": "Paraguay - France",
-          "value": "0 - 1",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-04T21:00:00Z",
-          "status": "FINISHED"
-        },
-        {
-          "label": "Canada - Morocco",
-          "value": "0 - 3",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-04T17:00:00Z",
           "status": "FINISHED"
         }
       ]
