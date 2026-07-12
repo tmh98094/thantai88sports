@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T02:02:42.309Z",
+  "generatedAt": "2026-07-12T12:49:05.192Z",
   "sourceStatus": "football-data.org",
   "leagues": [
     {
@@ -223,28 +223,14 @@
       "shortName": "World Cup",
       "upcomingFixtures": [
         {
-          "label": "Norway - England",
-          "value": "04:00 12 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-11T21:00:00Z",
-          "status": "TIMED"
-        },
-        {
-          "label": "Argentina - Switzerland",
-          "value": "08:00 12 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-12T01:00:00Z",
-          "status": "TIMED"
-        },
-        {
-          "label": "France - Đội bóng",
+          "label": "France - Spain",
           "value": "02:00 15 thg 7, 2026",
           "note": "World Cup · Lịch thi đấu · Đã có giờ",
           "startsAt": "2026-07-14T19:00:00Z",
           "status": "TIMED"
         },
         {
-          "label": "Đội bóng - Đội bóng",
+          "label": "England - Argentina",
           "value": "02:00 16 thg 7, 2026",
           "note": "World Cup · Lịch thi đấu · Đã có giờ",
           "startsAt": "2026-07-15T19:00:00Z",
@@ -266,6 +252,20 @@
         }
       ],
       "recentResults": [
+        {
+          "label": "Argentina - Switzerland",
+          "value": "3 - 1",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-12T01:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Norway - England",
+          "value": "1 - 2",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-11T21:00:00Z",
+          "status": "FINISHED"
+        },
         {
           "label": "Spain - Belgium",
           "value": "2 - 1",
@@ -307,20 +307,6 @@
           "note": "World Cup · Lịch thi đấu · Đã kết thúc",
           "startsAt": "2026-07-06T19:00:00Z",
           "status": "FINISHED"
-        },
-        {
-          "label": "Mexico - England",
-          "value": "2 - 3",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-06T01:00:00Z",
-          "status": "FINISHED"
-        },
-        {
-          "label": "Brazil - Norway",
-          "value": "1 - 2",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-05T20:00:00Z",
-          "status": "FINISHED"
         }
       ],
       "standings": [
@@ -351,7 +337,7 @@
   "rateLimits": [
     {
       "provider": "football-data.org",
-      "path": "/competitions/PL/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
+      "path": "/competitions/PL/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "9"
     },
     {
@@ -361,7 +347,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/CL/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
+      "path": "/competitions/CL/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "8"
     },
     {
@@ -371,7 +357,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/PD/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
+      "path": "/competitions/PD/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "6"
     },
     {
@@ -381,7 +367,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/SA/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
+      "path": "/competitions/SA/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "4"
     },
     {
@@ -391,7 +377,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/WC/matches?dateFrom=2026-06-27&dateTo=2026-08-01",
+      "path": "/competitions/WC/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "2"
     },
     {
