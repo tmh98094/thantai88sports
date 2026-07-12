@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-07T02:01:35.404Z",
+  "generatedAt": "2026-07-12T12:49:05.192Z",
   "sourceStatus": "football-data.org",
   "providerErrors": [],
   "rateLimits": [
     {
       "provider": "football-data.org",
-      "path": "/competitions/PL/matches?dateFrom=2026-06-23&dateTo=2026-07-28",
+      "path": "/competitions/PL/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "9"
     },
     {
@@ -15,7 +15,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/CL/matches?dateFrom=2026-06-23&dateTo=2026-07-28",
+      "path": "/competitions/CL/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "8"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/PD/matches?dateFrom=2026-06-23&dateTo=2026-07-28",
+      "path": "/competitions/PD/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "6"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/SA/matches?dateFrom=2026-06-23&dateTo=2026-07-28",
+      "path": "/competitions/SA/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "4"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "provider": "football-data.org",
-      "path": "/competitions/WC/matches?dateFrom=2026-06-23&dateTo=2026-07-28",
+      "path": "/competitions/WC/matches?dateFrom=2026-06-28&dateTo=2026-08-02",
       "remainingMinute": "2"
     },
     {
@@ -61,59 +61,31 @@
       "description": "Lịch thi đấu lấy từ football-data.org, phù hợp để theo dõi chủ đề Premier League, Champions League, La Liga, Serie A và World Cup.",
       "items": [
         {
-          "label": "Argentina - Egypt",
-          "value": "23:00 7 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-07T16:00:00Z",
-          "status": "TIMED"
-        },
-        {
-          "label": "Switzerland - Colombia",
-          "value": "03:00 8 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-07T20:00:00Z",
-          "status": "TIMED"
-        },
-        {
-          "label": "France - Morocco",
-          "value": "03:00 10 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-09T20:00:00Z",
-          "status": "TIMED"
-        },
-        {
-          "label": "Đội bóng - Đội bóng",
-          "value": "02:00 11 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-10T19:00:00Z",
-          "status": "TIMED"
-        },
-        {
-          "label": "Norway - England",
-          "value": "04:00 12 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-11T21:00:00Z",
-          "status": "TIMED"
-        },
-        {
-          "label": "Đội bóng - Đội bóng",
-          "value": "08:00 12 thg 7, 2026",
-          "note": "World Cup · Lịch thi đấu · Đã có giờ",
-          "startsAt": "2026-07-12T01:00:00Z",
-          "status": "TIMED"
-        },
-        {
-          "label": "Đội bóng - Đội bóng",
+          "label": "France - Spain",
           "value": "02:00 15 thg 7, 2026",
           "note": "World Cup · Lịch thi đấu · Đã có giờ",
           "startsAt": "2026-07-14T19:00:00Z",
           "status": "TIMED"
         },
         {
-          "label": "Đội bóng - Đội bóng",
+          "label": "England - Argentina",
           "value": "02:00 16 thg 7, 2026",
           "note": "World Cup · Lịch thi đấu · Đã có giờ",
           "startsAt": "2026-07-15T19:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Đội bóng - Đội bóng",
+          "value": "04:00 19 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-18T21:00:00Z",
+          "status": "TIMED"
+        },
+        {
+          "label": "Đội bóng - Đội bóng",
+          "value": "02:00 20 thg 7, 2026",
+          "note": "World Cup · Lịch thi đấu · Đã có giờ",
+          "startsAt": "2026-07-19T19:00:00Z",
           "status": "TIMED"
         }
       ]
@@ -124,59 +96,59 @@
       "description": "Kết quả trận đấu được dùng làm tín hiệu viết tin thể thao, không dùng như lời khuyên cá cược.",
       "items": [
         {
+          "label": "Argentina - Switzerland",
+          "value": "3 - 1",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-12T01:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Norway - England",
+          "value": "1 - 2",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-11T21:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Spain - Belgium",
+          "value": "2 - 1",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-10T19:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "France - Morocco",
+          "value": "2 - 0",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-09T20:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Switzerland - Colombia",
+          "value": "4 - 3",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-07T20:00:00Z",
+          "status": "FINISHED"
+        },
+        {
+          "label": "Argentina - Egypt",
+          "value": "3 - 2",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
+          "startsAt": "2026-07-07T16:00:00Z",
+          "status": "FINISHED"
+        },
+        {
           "label": "USA - Belgium",
-          "value": "1 - 3",
-          "note": "World Cup · Lịch thi đấu · Đang diễn ra",
+          "value": "1 - 4",
+          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
           "startsAt": "2026-07-07T00:00:00Z",
-          "status": "IN_PLAY"
+          "status": "FINISHED"
         },
         {
           "label": "Portugal - Spain",
           "value": "0 - 1",
           "note": "World Cup · Lịch thi đấu · Đã kết thúc",
           "startsAt": "2026-07-06T19:00:00Z",
-          "status": "FINISHED"
-        },
-        {
-          "label": "Mexico - England",
-          "value": "2 - 3",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-06T01:00:00Z",
-          "status": "FINISHED"
-        },
-        {
-          "label": "Brazil - Norway",
-          "value": "1 - 2",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-05T20:00:00Z",
-          "status": "FINISHED"
-        },
-        {
-          "label": "Paraguay - France",
-          "value": "0 - 1",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-04T21:00:00Z",
-          "status": "FINISHED"
-        },
-        {
-          "label": "Canada - Morocco",
-          "value": "0 - 3",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-04T17:00:00Z",
-          "status": "FINISHED"
-        },
-        {
-          "label": "Colombia - Ghana",
-          "value": "1 - 0",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-04T01:30:00Z",
-          "status": "FINISHED"
-        },
-        {
-          "label": "Argentina - Cape Verde",
-          "value": "3 - 2",
-          "note": "World Cup · Lịch thi đấu · Đã kết thúc",
-          "startsAt": "2026-07-03T22:00:00Z",
           "status": "FINISHED"
         }
       ]

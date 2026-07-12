@@ -35,7 +35,7 @@ const linkedNewsPost = {
   ...safeNewsPost,
   category: "bong-da-quoc-te",
   body:
-    `${safeNewsPost.body} Xem thÃªm [cÃ¡ch Ä‘á»c tháº¿ tráº­n](/tin-the-thao/cach-doc-the-tran-bong-da), [chá»§ Ä‘á» bÃ³ng Ä‘Ã¡ quá»‘c táº¿](/chu-de/bong-da-quoc-te) vÃ  [trang cáº­p nháº­t ná»n táº£ng Ä‘á»‘i tÃ¡c](/ca-cuoc-the-thao).`,
+    `${safeNewsPost.body} Xem thêm [cách đọc thế trận](/tin-the-thao/cach-doc-the-tran-bong-da), [chủ đề bóng đá quốc tế](/chu-de/bong-da-quoc-te) và [trang cập nhật nền tảng đối tác](/ca-cuoc-the-thao).`,
 };
 
 const validInternalPaths = new Set([
@@ -82,7 +82,7 @@ test("validatePostQuality rejects posts missing the affiliate landing CTA link",
     {
       ...linkedNewsPost,
       body:
-        `${safeNewsPost.body} Tham kháº£o [cÃ¡ch Ä‘á»c tháº¿ tráº­n](/tin-the-thao/cach-doc-the-tran-bong-da), [chá»§ Ä‘á» bÃ³ng Ä‘Ã¡ quá»‘c táº¿](/chu-de/bong-da-quoc-te) vÃ  [tin thá»ƒ thao liÃªn quan](/tin-the-thao/tin-khong-nguon).`,
+        `${safeNewsPost.body} Tham khảo [cách đọc thế trận](/tin-the-thao/cach-doc-the-tran-bong-da), [chủ đề bóng đá quốc tế](/chu-de/bong-da-quoc-te) và [tin thể thao liên quan](/tin-the-thao/tin-khong-nguon).`,
     },
     { validInternalPaths },
   );
@@ -95,7 +95,7 @@ test("validatePostQuality rejects posts that link to themselves", () => {
     {
       ...linkedNewsPost,
       body:
-        `${safeNewsPost.body} Tham kháº£o [bÃ i hiá»‡n táº¡i](/tin-the-thao/lich-thi-dau-world-cup-2026-hom-nay), [chá»§ Ä‘á» bÃ³ng Ä‘Ã¡ quá»‘c táº¿](/chu-de/bong-da-quoc-te) vÃ  [trang ná»n táº£ng Ä‘á»‘i tÃ¡c](/ca-cuoc-the-thao).`,
+        `${safeNewsPost.body} Tham khảo [bài hiện tại](/tin-the-thao/lich-thi-dau-world-cup-2026-hom-nay), [chủ đề bóng đá quốc tế](/chu-de/bong-da-quoc-te) và [trang nền tảng đối tác](/ca-cuoc-the-thao).`,
     },
     { validInternalPaths },
   );
@@ -108,7 +108,7 @@ test("validatePostQuality rejects missing internal routes", () => {
     {
       ...linkedNewsPost,
       body:
-        `${safeNewsPost.body} Tham kháº£o [cÃ¡ch Ä‘á»c tháº¿ tráº­n](/tin-the-thao/cach-doc-the-tran-bong-da), [bÃ i khÃ´ng tá»“n táº¡i](/tin-the-thao/khong-ton-tai) vÃ  [trang ná»n táº£ng Ä‘á»‘i tÃ¡c](/ca-cuoc-the-thao).`,
+        `${safeNewsPost.body} Tham khảo [cách đọc thế trận](/tin-the-thao/cach-doc-the-tran-bong-da), [bài không tồn tại](/tin-the-thao/khong-ton-tai) và [trang nền tảng đối tác](/ca-cuoc-the-thao).`,
     },
     { validInternalPaths },
   );
@@ -267,7 +267,7 @@ test("buildFootballDataWidgets treats future football-data matches without score
   const upcoming = widgets.sections.find((section) => section.id === "upcoming-football");
 
   assert.equal(upcoming.items[0].label, "Mexico - England");
-  assert.notEqual(upcoming.items[0].label, "Lá»‹ch sáº¯p tá»›i");
+  assert.notEqual(upcoming.items[0].label, "Lịch sắp tới");
 });
 
 test("buildFootballDataMatchWindow covers recent results and upcoming fixtures around the run date", () => {
