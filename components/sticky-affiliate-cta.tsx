@@ -1,15 +1,23 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ShieldIcon } from "@/components/icons";
 import { PartnerLink } from "@/components/partner-link";
 
 export function StickyAffiliateCta() {
   const [collapsed, setCollapsed] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    const updateVisibility = () => setHasScrolled(window.scrollY > 280);
+    updateVisibility();
+    window.addEventListener("scroll", updateVisibility, { passive: true });
+    return () => window.removeEventListener("scroll", updateVisibility);
+  }, []);
 
   return (
-    <div className="sticky-affiliate-shell" data-collapsed={collapsed}>
+    <div className="sticky-affiliate-shell" data-collapsed={collapsed} data-visible={hasScrolled}>
       <aside aria-label="Truy cập nền tảng đối tác 18+" className="sticky-affiliate-cta">
         <button
           aria-label="Thu gọn CTA"

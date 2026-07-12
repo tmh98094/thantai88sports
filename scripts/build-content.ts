@@ -7,6 +7,7 @@ import { frontmatterSchema, postSchema, type Post } from "../lib/content-schema"
 const root = process.cwd();
 const contentDirectory = path.join(root, "content", "posts");
 const outputFile = path.join(root, "generated", "posts.json");
+const imagePromptCatalogFile = path.join(root, "docs", "AI_IMAGE_PROMPTS.md");
 
 function assertSafeMarkdown(markdown: string, filename: string) {
   if (/<script\b|\son\w+\s*=|javascript:/i.test(markdown)) {
@@ -38,6 +39,43 @@ async function compilePost(filename: string): Promise<Post> {
   });
 }
 
+function buildImagePromptEntry(post: Post, index: number) {
+  return `### ${index}. ${post.title}
+
+- **Output path:** \`public${post.image}\`
+- **Filename:** \`${post.slug}.webp\`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "${post.title}". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** \`${post.imageAlt}\``;
+}
+
+function synchronizeImagePromptCatalog(posts: Post[]) {
+  if (!fs.existsSync(imagePromptCatalogFile)) {
+    throw new Error("Missing docs/AI_IMAGE_PROMPTS.md image prompt catalog");
+  }
+
+  const currentCatalog = fs.readFileSync(imagePromptCatalogFile, "utf8");
+  const existingEntries = currentCatalog.split(/^### \d+\. /m).slice(1);
+  const existingPaths = new Set(
+    existingEntries
+      .map((entry) => entry.match(/\*\*Output path:\*\* `public(\/images\/[^`]+)`/)?.[1])
+      .filter((imagePath): imagePath is string => Boolean(imagePath)),
+  );
+  const missingPosts = posts.filter((post) => !existingPaths.has(post.image));
+
+  if (missingPosts.length === 0) {
+    return;
+  }
+
+  const additions = missingPosts
+    .map((post, index) => buildImagePromptEntry(post, existingEntries.length + index + 1))
+    .join("\n\n");
+  fs.writeFileSync(imagePromptCatalogFile, `${currentCatalog.trimEnd()}\n\n${additions}\n`, "utf8");
+  console.log(`Added ${missingPosts.length} image prompt catalog entries.`);
+}
+
 async function main() {
   const filenames = fs.readdirSync(contentDirectory).filter((filename) => filename.endsWith(".md"));
   const posts = await Promise.all(filenames.map(compilePost));
@@ -57,6 +95,7 @@ async function main() {
   posts.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
   fs.mkdirSync(path.dirname(outputFile), { recursive: true });
   fs.writeFileSync(outputFile, `${JSON.stringify(posts, null, 2)}\n`, "utf8");
+  synchronizeImagePromptCatalog(posts);
   console.log(`Built ${posts.length} Vietnamese posts.`);
 }
 

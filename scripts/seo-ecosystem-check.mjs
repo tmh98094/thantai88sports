@@ -8,7 +8,7 @@ const config = {
   robotsMustContain: ["/api/", "/go/"],
   scanRoots: ["app", "components", "content", "lib", "public", "docs", "PRODUCT.md", "OWNER_INPUTS.md"],
   publicCopyRoots: ["app", "components", "content", "lib", "public/llms.txt"],
-  ecosystemDomains: ["https://thantai88.online", "https://thantai88.group", "https://thantai88.site", "https://thantai888.co"],
+  ecosystemDomains: ["https://thantai88.online", "https://thantai88.com", "https://thantai88.site", "https://thantai888.co"],
 };
 
 const ignoredDirectories = new Set([".git", ".next", ".open-next", ".wrangler", ".worktrees", "node_modules", "out", "coverage"]);

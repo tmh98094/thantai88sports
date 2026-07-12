@@ -1,0 +1,2880 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-13",
+  "site": "sports",
+  "name": "Thantai88 Sports",
+  "canonicalUrl": "https://thantai88.site",
+  "quota": 80,
+  "items": [
+    {
+      "id": "SPORTS-001",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "hub",
+      "title": "tỷ lệ kèo bóng đá: hướng dẫn đọc và chuẩn bị",
+      "slug": "ty-le-keo-bong-da-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "tỷ lệ kèo bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn tỷ lệ kèo bóng đá",
+        "tỷ lệ kèo bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 100,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-002",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "tỷ lệ kèo bóng đá: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "ty-le-keo-bong-da-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "tỷ lệ kèo bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn tỷ lệ kèo bóng đá",
+        "tỷ lệ kèo bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 99,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-003",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "kèo châu Á: hướng dẫn đọc và chuẩn bị",
+      "slug": "keo-chau-a-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "kèo châu Á",
+      "secondaryKeywords": [
+        "hướng dẫn kèo châu Á",
+        "kèo châu Á cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 98,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-004",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "kèo châu Á: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "keo-chau-a-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "kèo châu Á",
+      "secondaryKeywords": [
+        "hướng dẫn kèo châu Á",
+        "kèo châu Á cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 97,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-005",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "kèo châu Âu: hướng dẫn đọc và chuẩn bị",
+      "slug": "keo-chau-au-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "kèo châu Âu",
+      "secondaryKeywords": [
+        "hướng dẫn kèo châu Âu",
+        "kèo châu Âu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 96,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-006",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "kèo châu Âu: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "keo-chau-au-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "kèo châu Âu",
+      "secondaryKeywords": [
+        "hướng dẫn kèo châu Âu",
+        "kèo châu Âu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 95,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-007",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "kèo tài xỉu: hướng dẫn đọc và chuẩn bị",
+      "slug": "keo-tai-xiu-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "kèo tài xỉu",
+      "secondaryKeywords": [
+        "hướng dẫn kèo tài xỉu",
+        "kèo tài xỉu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 94,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-008",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "kèo tài xỉu: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "keo-tai-xiu-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "kèo tài xỉu",
+      "secondaryKeywords": [
+        "hướng dẫn kèo tài xỉu",
+        "kèo tài xỉu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 93,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-009",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "kèo đồng banh: hướng dẫn đọc và chuẩn bị",
+      "slug": "keo-dong-banh-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "kèo đồng banh",
+      "secondaryKeywords": [
+        "hướng dẫn kèo đồng banh",
+        "kèo đồng banh cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 92,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-010",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "kèo đồng banh: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "keo-dong-banh-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "kèo đồng banh",
+      "secondaryKeywords": [
+        "hướng dẫn kèo đồng banh",
+        "kèo đồng banh cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 91,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-011",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "xác suất trong cá cược thể thao: hướng dẫn đọc và chuẩn bị",
+      "slug": "xac-suat-trong-ca-cuoc-the-thao-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "xác suất trong cá cược thể thao",
+      "secondaryKeywords": [
+        "hướng dẫn xác suất trong cá cược thể thao",
+        "xác suất trong cá cược thể thao cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 90,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-012",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "xác suất trong cá cược thể thao: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "xac-suat-trong-ca-cuoc-the-thao-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "xác suất trong cá cược thể thao",
+      "secondaryKeywords": [
+        "hướng dẫn xác suất trong cá cược thể thao",
+        "xác suất trong cá cược thể thao cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 89,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-013",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "biên lợi nhuận nhà cái: hướng dẫn đọc và chuẩn bị",
+      "slug": "bien-loi-nhuan-nha-cai-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "biên lợi nhuận nhà cái",
+      "secondaryKeywords": [
+        "hướng dẫn biên lợi nhuận nhà cái",
+        "biên lợi nhuận nhà cái cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 88,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-014",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "biên lợi nhuận nhà cái: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "bien-loi-nhuan-nha-cai-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "biên lợi nhuận nhà cái",
+      "secondaryKeywords": [
+        "hướng dẫn biên lợi nhuận nhà cái",
+        "biên lợi nhuận nhà cái cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 87,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-015",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "cách đọc biến động tỷ lệ kèo: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-bien-dong-ty-le-keo-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc biến động tỷ lệ kèo",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc biến động tỷ lệ kèo",
+        "cách đọc biến động tỷ lệ kèo cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 86,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-016",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "cách đọc biến động tỷ lệ kèo: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-bien-dong-ty-le-keo-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc biến động tỷ lệ kèo",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc biến động tỷ lệ kèo",
+        "cách đọc biến động tỷ lệ kèo cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 85,
+      "phase": 1,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-017",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "cách hiểu kèo trước trận: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-hieu-keo-truoc-tran-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách hiểu kèo trước trận",
+      "secondaryKeywords": [
+        "hướng dẫn cách hiểu kèo trước trận",
+        "cách hiểu kèo trước trận cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 84,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-018",
+      "site": "sports",
+      "pillar": "Tỷ lệ và thị trường thể thao",
+      "cluster": "Odds literacy",
+      "pageType": "article",
+      "title": "cách hiểu kèo trước trận: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-hieu-keo-truoc-tran-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách hiểu kèo trước trận",
+      "secondaryKeywords": [
+        "hướng dẫn cách hiểu kèo trước trận",
+        "cách hiểu kèo trước trận cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/ca-cuoc-the-thao",
+      "prerequisites": [
+        "SPORTS-001"
+      ],
+      "requiredInternalLinks": [
+        "/ca-cuoc-the-thao",
+        "/tin-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 83,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-019",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "hub",
+      "title": "nhận định trước trận: hướng dẫn đọc và chuẩn bị",
+      "slug": "nhan-dinh-truoc-tran-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "nhận định trước trận",
+      "secondaryKeywords": [
+        "hướng dẫn nhận định trước trận",
+        "nhận định trước trận cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 82,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-020",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "nhận định trước trận: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "nhan-dinh-truoc-tran-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "nhận định trước trận",
+      "secondaryKeywords": [
+        "hướng dẫn nhận định trước trận",
+        "nhận định trước trận cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 81,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-021",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc phong độ đội bóng: hướng dẫn đọc và chuẩn bị",
+      "slug": "doc-phong-do-doi-bong-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "đọc phong độ đội bóng",
+      "secondaryKeywords": [
+        "hướng dẫn đọc phong độ đội bóng",
+        "đọc phong độ đội bóng cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 80,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-022",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc phong độ đội bóng: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "doc-phong-do-doi-bong-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "đọc phong độ đội bóng",
+      "secondaryKeywords": [
+        "hướng dẫn đọc phong độ đội bóng",
+        "đọc phong độ đội bóng cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 79,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-023",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc lịch thi đấu dày: hướng dẫn đọc và chuẩn bị",
+      "slug": "doc-lich-thi-dau-day-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "đọc lịch thi đấu dày",
+      "secondaryKeywords": [
+        "hướng dẫn đọc lịch thi đấu dày",
+        "đọc lịch thi đấu dày cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 78,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-024",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc lịch thi đấu dày: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "doc-lich-thi-dau-day-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "đọc lịch thi đấu dày",
+      "secondaryKeywords": [
+        "hướng dẫn đọc lịch thi đấu dày",
+        "đọc lịch thi đấu dày cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 77,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-025",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc lợi thế sân nhà: hướng dẫn đọc và chuẩn bị",
+      "slug": "doc-loi-the-san-nha-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "đọc lợi thế sân nhà",
+      "secondaryKeywords": [
+        "hướng dẫn đọc lợi thế sân nhà",
+        "đọc lợi thế sân nhà cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 76,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-026",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc lợi thế sân nhà: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "doc-loi-the-san-nha-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "đọc lợi thế sân nhà",
+      "secondaryKeywords": [
+        "hướng dẫn đọc lợi thế sân nhà",
+        "đọc lợi thế sân nhà cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 75,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-027",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc đội hình và chấn thương: hướng dẫn đọc và chuẩn bị",
+      "slug": "doc-doi-hinh-va-chan-thuong-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "đọc đội hình và chấn thương",
+      "secondaryKeywords": [
+        "hướng dẫn đọc đội hình và chấn thương",
+        "đọc đội hình và chấn thương cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 74,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-028",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc đội hình và chấn thương: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "doc-doi-hinh-va-chan-thuong-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "đọc đội hình và chấn thương",
+      "secondaryKeywords": [
+        "hướng dẫn đọc đội hình và chấn thương",
+        "đọc đội hình và chấn thương cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 73,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-029",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc động lực thi đấu: hướng dẫn đọc và chuẩn bị",
+      "slug": "doc-dong-luc-thi-dau-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "đọc động lực thi đấu",
+      "secondaryKeywords": [
+        "hướng dẫn đọc động lực thi đấu",
+        "đọc động lực thi đấu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 72,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-030",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc động lực thi đấu: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "doc-dong-luc-thi-dau-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "đọc động lực thi đấu",
+      "secondaryKeywords": [
+        "hướng dẫn đọc động lực thi đấu",
+        "đọc động lực thi đấu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 71,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-031",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc lịch sử đối đầu: hướng dẫn đọc và chuẩn bị",
+      "slug": "doc-lich-su-doi-dau-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "đọc lịch sử đối đầu",
+      "secondaryKeywords": [
+        "hướng dẫn đọc lịch sử đối đầu",
+        "đọc lịch sử đối đầu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 70,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-032",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc lịch sử đối đầu: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "doc-lich-su-doi-dau-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "đọc lịch sử đối đầu",
+      "secondaryKeywords": [
+        "hướng dẫn đọc lịch sử đối đầu",
+        "đọc lịch sử đối đầu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 69,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-033",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc điều kiện thời tiết trận đấu: hướng dẫn đọc và chuẩn bị",
+      "slug": "doc-dieu-kien-thoi-tiet-tran-dau-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "đọc điều kiện thời tiết trận đấu",
+      "secondaryKeywords": [
+        "hướng dẫn đọc điều kiện thời tiết trận đấu",
+        "đọc điều kiện thời tiết trận đấu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 68,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-034",
+      "site": "sports",
+      "pillar": "Đọc trận và nhận định",
+      "cluster": "Match analysis method",
+      "pageType": "article",
+      "title": "đọc điều kiện thời tiết trận đấu: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "doc-dieu-kien-thoi-tiet-tran-dau-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "đọc điều kiện thời tiết trận đấu",
+      "secondaryKeywords": [
+        "hướng dẫn đọc điều kiện thời tiết trận đấu",
+        "đọc điều kiện thời tiết trận đấu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "consideration",
+      "parentHub": "/chu-de/nhan-dinh",
+      "prerequisites": [
+        "SPORTS-019"
+      ],
+      "requiredInternalLinks": [
+        "/chu-de/nhan-dinh",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 67,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-035",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "hub",
+      "title": "cách đọc thế trận bóng đá: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-the-tran-bong-da-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc thế trận bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc thế trận bóng đá",
+        "cách đọc thế trận bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 66,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-036",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc thế trận bóng đá: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-the-tran-bong-da-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc thế trận bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc thế trận bóng đá",
+        "cách đọc thế trận bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 65,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-037",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc pressing trong bóng đá: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-pressing-trong-bong-da-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc pressing trong bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc pressing trong bóng đá",
+        "cách đọc pressing trong bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 64,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-038",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc pressing trong bóng đá: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-pressing-trong-bong-da-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc pressing trong bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc pressing trong bóng đá",
+        "cách đọc pressing trong bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 63,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-039",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc phản công: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-phan-cong-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc phản công",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc phản công",
+        "cách đọc phản công cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 62,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-040",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc phản công: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-phan-cong-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc phản công",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc phản công",
+        "cách đọc phản công cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 61,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-041",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc kiểm soát bóng: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-kiem-soat-bong-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc kiểm soát bóng",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc kiểm soát bóng",
+        "cách đọc kiểm soát bóng cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 60,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-042",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc kiểm soát bóng: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-kiem-soat-bong-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc kiểm soát bóng",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc kiểm soát bóng",
+        "cách đọc kiểm soát bóng cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 59,
+      "phase": 2,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-043",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc chỉ số xG: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-chi-so-xg-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc chỉ số xG",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc chỉ số xG",
+        "cách đọc chỉ số xG cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 58,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-044",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc chỉ số xG: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-chi-so-xg-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc chỉ số xG",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc chỉ số xG",
+        "cách đọc chỉ số xG cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 57,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-045",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc sút trúng đích: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-sut-trung-dich-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc sút trúng đích",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc sút trúng đích",
+        "cách đọc sút trúng đích cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 56,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-046",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc sút trúng đích: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-sut-trung-dich-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc sút trúng đích",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc sút trúng đích",
+        "cách đọc sút trúng đích cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 55,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-047",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc phong độ sân nhà sân khách: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-phong-do-san-nha-san-khach-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc phong độ sân nhà sân khách",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc phong độ sân nhà sân khách",
+        "cách đọc phong độ sân nhà sân khách cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 54,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-048",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc phong độ sân nhà sân khách: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-phong-do-san-nha-san-khach-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc phong độ sân nhà sân khách",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc phong độ sân nhà sân khách",
+        "cách đọc phong độ sân nhà sân khách cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 53,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-049",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc thay người chiến thuật: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-thay-nguoi-chien-thuat-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc thay người chiến thuật",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc thay người chiến thuật",
+        "cách đọc thay người chiến thuật cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 52,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-050",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách đọc thay người chiến thuật: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-thay-nguoi-chien-thuat-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc thay người chiến thuật",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc thay người chiến thuật",
+        "cách đọc thay người chiến thuật cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 51,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-051",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách theo dõi xu hướng chiến thuật: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-theo-doi-xu-huong-chien-thuat-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách theo dõi xu hướng chiến thuật",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi xu hướng chiến thuật",
+        "cách theo dõi xu hướng chiến thuật cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 50,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-052",
+      "site": "sports",
+      "pillar": "Chiến thuật, phong độ và thống kê",
+      "cluster": "Football education",
+      "pageType": "article",
+      "title": "cách theo dõi xu hướng chiến thuật: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-theo-doi-xu-huong-chien-thuat-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách theo dõi xu hướng chiến thuật",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi xu hướng chiến thuật",
+        "cách theo dõi xu hướng chiến thuật cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao/bai-viet",
+      "prerequisites": [
+        "SPORTS-035"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao/bai-viet",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 49,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-053",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "hub",
+      "title": "cách theo dõi Premier League: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-theo-doi-premier-league-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách theo dõi Premier League",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi Premier League",
+        "cách theo dõi Premier League cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 48,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-054",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách theo dõi Premier League: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-theo-doi-premier-league-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách theo dõi Premier League",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi Premier League",
+        "cách theo dõi Premier League cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 47,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-055",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách theo dõi Champions League: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-theo-doi-champions-league-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách theo dõi Champions League",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi Champions League",
+        "cách theo dõi Champions League cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 46,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-056",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách theo dõi Champions League: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-theo-doi-champions-league-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách theo dõi Champions League",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi Champions League",
+        "cách theo dõi Champions League cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 45,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-057",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách theo dõi bóng đá Việt Nam: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-theo-doi-bong-da-viet-nam-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách theo dõi bóng đá Việt Nam",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi bóng đá Việt Nam",
+        "cách theo dõi bóng đá Việt Nam cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 44,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-058",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách theo dõi bóng đá Việt Nam: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-theo-doi-bong-da-viet-nam-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách theo dõi bóng đá Việt Nam",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi bóng đá Việt Nam",
+        "cách theo dõi bóng đá Việt Nam cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 43,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-059",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách đọc bảng xếp hạng bóng đá: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-bang-xep-hang-bong-da-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc bảng xếp hạng bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc bảng xếp hạng bóng đá",
+        "cách đọc bảng xếp hạng bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 42,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-060",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách đọc bảng xếp hạng bóng đá: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-bang-xep-hang-bong-da-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc bảng xếp hạng bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc bảng xếp hạng bóng đá",
+        "cách đọc bảng xếp hạng bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 41,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-061",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách theo dõi lịch thi đấu: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-theo-doi-lich-thi-dau-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách theo dõi lịch thi đấu",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi lịch thi đấu",
+        "cách theo dõi lịch thi đấu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 40,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-062",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách theo dõi lịch thi đấu: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-theo-doi-lich-thi-dau-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách theo dõi lịch thi đấu",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi lịch thi đấu",
+        "cách theo dõi lịch thi đấu cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 39,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-063",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách phân biệt vòng bảng và knock-out: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-phan-biet-vong-bang-va-knock-out-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách phân biệt vòng bảng và knock-out",
+      "secondaryKeywords": [
+        "hướng dẫn cách phân biệt vòng bảng và knock-out",
+        "cách phân biệt vòng bảng và knock-out cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 38,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-064",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách phân biệt vòng bảng và knock-out: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-phan-biet-vong-bang-va-knock-out-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách phân biệt vòng bảng và knock-out",
+      "secondaryKeywords": [
+        "hướng dẫn cách phân biệt vòng bảng và knock-out",
+        "cách phân biệt vòng bảng và knock-out cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 37,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-065",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách đọc lịch thi đấu quốc tế: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-doc-lich-thi-dau-quoc-te-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách đọc lịch thi đấu quốc tế",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc lịch thi đấu quốc tế",
+        "cách đọc lịch thi đấu quốc tế cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 36,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-066",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách đọc lịch thi đấu quốc tế: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-doc-lich-thi-dau-quoc-te-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách đọc lịch thi đấu quốc tế",
+      "secondaryKeywords": [
+        "hướng dẫn cách đọc lịch thi đấu quốc tế",
+        "cách đọc lịch thi đấu quốc tế cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 35,
+      "phase": 3,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-067",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách theo dõi một mùa giải bóng đá: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-theo-doi-mot-mua-giai-bong-da-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách theo dõi một mùa giải bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi một mùa giải bóng đá",
+        "cách theo dõi một mùa giải bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 34,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-068",
+      "site": "sports",
+      "pillar": "Giải đấu và mùa bóng",
+      "cluster": "Competition guides",
+      "pageType": "article",
+      "title": "cách theo dõi một mùa giải bóng đá: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-theo-doi-mot-mua-giai-bong-da-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách theo dõi một mùa giải bóng đá",
+      "secondaryKeywords": [
+        "hướng dẫn cách theo dõi một mùa giải bóng đá",
+        "cách theo dõi một mùa giải bóng đá cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/tin-the-thao",
+      "prerequisites": [
+        "SPORTS-053"
+      ],
+      "requiredInternalLinks": [
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao",
+        "/choi-co-trach-nhiem"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 33,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-069",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "hub",
+      "title": "cách chọn nguồn tin thể thao đáng tin: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-chon-nguon-tin-the-thao-dang-tin-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách chọn nguồn tin thể thao đáng tin",
+      "secondaryKeywords": [
+        "hướng dẫn cách chọn nguồn tin thể thao đáng tin",
+        "cách chọn nguồn tin thể thao đáng tin cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 32,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-070",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "cách chọn nguồn tin thể thao đáng tin: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-chon-nguon-tin-the-thao-dang-tin-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách chọn nguồn tin thể thao đáng tin",
+      "secondaryKeywords": [
+        "hướng dẫn cách chọn nguồn tin thể thao đáng tin",
+        "cách chọn nguồn tin thể thao đáng tin cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 31,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-071",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "cách kiểm tra thông tin cầu thủ: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-kiem-tra-thong-tin-cau-thu-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách kiểm tra thông tin cầu thủ",
+      "secondaryKeywords": [
+        "hướng dẫn cách kiểm tra thông tin cầu thủ",
+        "cách kiểm tra thông tin cầu thủ cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 30,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-072",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "cách kiểm tra thông tin cầu thủ: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-kiem-tra-thong-tin-cau-thu-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách kiểm tra thông tin cầu thủ",
+      "secondaryKeywords": [
+        "hướng dẫn cách kiểm tra thông tin cầu thủ",
+        "cách kiểm tra thông tin cầu thủ cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 29,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-073",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "cách tránh tin đồn thể thao: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-tranh-tin-don-the-thao-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách tránh tin đồn thể thao",
+      "secondaryKeywords": [
+        "hướng dẫn cách tránh tin đồn thể thao",
+        "cách tránh tin đồn thể thao cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 28,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-074",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "cách tránh tin đồn thể thao: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-tranh-tin-don-the-thao-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách tránh tin đồn thể thao",
+      "secondaryKeywords": [
+        "hướng dẫn cách tránh tin đồn thể thao",
+        "cách tránh tin đồn thể thao cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 27,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-075",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "quản lý ngân sách theo dõi thể thao: hướng dẫn đọc và chuẩn bị",
+      "slug": "quan-ly-ngan-sach-theo-doi-the-thao-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "quản lý ngân sách theo dõi thể thao",
+      "secondaryKeywords": [
+        "hướng dẫn quản lý ngân sách theo dõi thể thao",
+        "quản lý ngân sách theo dõi thể thao cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 26,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-076",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "quản lý ngân sách theo dõi thể thao: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "quan-ly-ngan-sach-theo-doi-the-thao-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "quản lý ngân sách theo dõi thể thao",
+      "secondaryKeywords": [
+        "hướng dẫn quản lý ngân sách theo dõi thể thao",
+        "quản lý ngân sách theo dõi thể thao cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 25,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-077",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "dấu hiệu cá cược thể thao rủi ro: hướng dẫn đọc và chuẩn bị",
+      "slug": "dau-hieu-ca-cuoc-the-thao-rui-ro-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "dấu hiệu cá cược thể thao rủi ro",
+      "secondaryKeywords": [
+        "hướng dẫn dấu hiệu cá cược thể thao rủi ro",
+        "dấu hiệu cá cược thể thao rủi ro cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 24,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-078",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "dấu hiệu cá cược thể thao rủi ro: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "dau-hieu-ca-cuoc-the-thao-rui-ro-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "dấu hiệu cá cược thể thao rủi ro",
+      "secondaryKeywords": [
+        "hướng dẫn dấu hiệu cá cược thể thao rủi ro",
+        "dấu hiệu cá cược thể thao rủi ro cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 23,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    },
+    {
+      "id": "SPORTS-079",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "cách dừng khi theo dõi trận đấu gây áp lực: hướng dẫn đọc và chuẩn bị",
+      "slug": "cach-dung-khi-theo-doi-tran-dau-gay-ap-luc-huong-dan-doc-va-chuan-bi",
+      "primaryKeyword": "cách dừng khi theo dõi trận đấu gây áp lực",
+      "secondaryKeywords": [
+        "hướng dẫn cách dừng khi theo dõi trận đấu gây áp lực",
+        "cách dừng khi theo dõi trận đấu gây áp lực cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 22,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: hướng dẫn đọc và chuẩn bị."
+    },
+    {
+      "id": "SPORTS-080",
+      "site": "sports",
+      "pillar": "Tin thể thao có trách nhiệm",
+      "cluster": "News literacy and safeguards",
+      "pageType": "article",
+      "title": "cách dừng khi theo dõi trận đấu gây áp lực: lỗi hiểu nhầm và checklist kiểm tra",
+      "slug": "cach-dung-khi-theo-doi-tran-dau-gay-ap-luc-loi-hieu-nham-va-checklist-kiem-tra",
+      "primaryKeyword": "cách dừng khi theo dõi trận đấu gây áp lực",
+      "secondaryKeywords": [
+        "hướng dẫn cách dừng khi theo dõi trận đấu gây áp lực",
+        "cách dừng khi theo dõi trận đấu gây áp lực cho người mới"
+      ],
+      "searchIntent": "informational",
+      "funnelStage": "awareness",
+      "parentHub": "/choi-co-trach-nhiem",
+      "prerequisites": [
+        "SPORTS-069"
+      ],
+      "requiredInternalLinks": [
+        "/choi-co-trach-nhiem",
+        "/tin-the-thao",
+        "/ca-cuoc-the-thao"
+      ],
+      "crossSiteLinkTarget": "https://thantai88.online/keo-nha-cai/",
+      "evidenceRequirements": [
+        "Nguồn công khai hoặc nội dung giáo dục có thể kiểm chứng",
+        "Không có claim không được hỗ trợ"
+      ],
+      "imageBrief": "Ảnh biên tập sân vận động, chiến thuật hoặc theo dõi trận đấu; không dùng tỷ số hay thông tin chưa kiểm chứng trong ảnh.",
+      "priority": 21,
+      "phase": 4,
+      "status": "planned",
+      "sourceRequired": false,
+      "notes": "Góc triển khai: lỗi hiểu nhầm và checklist kiểm tra."
+    }
+  ]
+}

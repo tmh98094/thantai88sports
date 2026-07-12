@@ -43,7 +43,7 @@ describe("image asset contract", () => {
     }
   });
 
-  it("uses model-first adult glamour prompts without negative-constraint blocks", () => {
+  it("keeps every image brief adult, non-explicit, and ready for a branded editorial render", () => {
     const catalog = readFileSync(resolve(process.cwd(), "docs/AI_IMAGE_PROMPTS.md"), "utf8");
     const entries = catalog.split(/^### \d+\. /m).slice(1);
 
@@ -54,8 +54,6 @@ describe("image asset contract", () => {
       expect(entry).toContain("**Generation prompt:**");
       expect(entry).toMatch(/age 25[–-]35/i);
       expect(entry).toMatch(/non-nude/i);
-      expect(entry).toMatch(/lingerie|corset|camisole|bodysuit|crop (?:top|shirt)/i);
-      expect(entry).toMatch(/flirtatious|naughty|seductive|teasing|playful/i);
       expect(entry).toMatch(/attached Thantai88 Sports logo/i);
       expect(entry).toMatch(/top-left/i);
     }

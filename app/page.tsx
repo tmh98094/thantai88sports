@@ -93,7 +93,7 @@ export default function HomePage() {
                 Thantai88 chính thức
               </a>
               . Nếu muốn so sánh sảnh casino và bonus, hãy đọc{" "}
-              <a href="https://thantai88.group/danh-gia" rel="noopener noreferrer">
+              <a href="https://thantai88.com/danh-gia" rel="noopener noreferrer">
                 review hub Thantai88 Group
               </a>
               .

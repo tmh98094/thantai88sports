@@ -15,15 +15,21 @@ describe("SEO helpers", () => {
   });
 
   it("creates article and breadcrumb structured data without unsafe angle brackets", () => {
-    const post = getAllPosts()[0];
-    const article = articleJsonLd(post);
+    const newsPost = getAllPosts().find((post) => post.contentType === "news");
+    const evergreenPost = getAllPosts().find((post) => post.contentType !== "news");
+    expect(newsPost).toBeDefined();
+    expect(evergreenPost).toBeDefined();
+
+    const article = articleJsonLd(newsPost!);
+    const evergreenArticle = articleJsonLd(evergreenPost!);
     const breadcrumbs = breadcrumbJsonLd([
       { name: "Trang chủ", path: "/" },
-      { name: post.title, path: `/tin-the-thao/${post.slug}` },
+      { name: newsPost!.title, path: `/tin-the-thao/${newsPost!.slug}` },
     ]);
     const serialized = serializeJsonLd({ article, breadcrumbs, injected: "</script><script>" });
 
-    expect(article["@type"]).toBe("BlogPosting");
+    expect(article["@type"]).toBe("NewsArticle");
+    expect(evergreenArticle["@type"]).toBe("BlogPosting");
     expect(article.author).toMatchObject({
       "@type": "Organization",
       url: expect.stringContaining("/tac-gia/ban-bien-tap"),

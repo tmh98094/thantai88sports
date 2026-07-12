@@ -291,3 +291,123 @@ Attach this PNG as a reference image whenever you submit one of the prompts belo
 - **Generation prompt:** Create a wide premium photorealistic adult night-stadium glamour image featuring an unmistakably adult Vietnamese or Southeast Asian woman age 25-35, non-nude, wearing an emerald satin corset blouse and fitted black skirt. Give her a teasing seductive expression and direct eye contact while the stadium background shows a clean Paraguay vs France result graphic. Use moody green and gold floodlights, keep her dominant, and leave top-left room for the attached logo.
 - **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
 - **Vietnamese alt text:** `Minh họa trận Paraguay gặp France tại World Cup 2026 với không khí sân vận động ban đêm`
+
+### 26. Argentina 3-1 Switzerland: vé bán kết World Cup 2026 sau hiệp phụ
+
+- **Output path:** `public/images/posts/argentina-switzerland-world-cup-2026-ket-qua-3-1.webp`
+- **Filename:** `argentina-switzerland-world-cup-2026-ket-qua-3-1.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Argentina 3-1 Switzerland: vé bán kết World Cup 2026 sau hiệp phụ". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Sân vận động World Cup ban đêm với cầu thủ Argentina ăn mừng sau trận thắng Switzerland 3-1`
+
+### 27. Cách đọc bán kết World Cup 2026 có trách nhiệm: France, Spain, England, Argentina
+
+- **Output path:** `public/images/posts/cach-doc-ban-ket-world-cup-2026-co-trach-nhiem.webp`
+- **Filename:** `cach-doc-ban-ket-world-cup-2026-co-trach-nhiem.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Cách đọc bán kết World Cup 2026 có trách nhiệm: France, Spain, England, Argentina". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Bàn theo dõi bán kết World Cup 2026 với sổ ghi chú, đồng hồ và màn hình bóng đá`
+
+### 28. England - Argentina lúc 02:00 ngày 16/7: lịch bán kết World Cup 2026
+
+- **Output path:** `public/images/posts/england-argentina-world-cup-2026-ban-ket-lich-thi-dau.webp`
+- **Filename:** `england-argentina-world-cup-2026-ban-ket-lich-thi-dau.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "England - Argentina lúc 02:00 ngày 16/7: lịch bán kết World Cup 2026". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Sân vận động trong nhà trước trận bán kết World Cup 2026 giữa England và Argentina`
+
+### 29. Phân tích France - Spain: bán kết World Cup 2026 nhìn từ nhịp kiểm soát
+
+- **Output path:** `public/images/posts/phan-tich-france-spain-world-cup-2026-ban-ket.webp`
+- **Filename:** `phan-tich-france-spain-world-cup-2026-ban-ket.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Phân tích France - Spain: bán kết World Cup 2026 nhìn từ nhịp kiểm soát". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Bàn phân tích chiến thuật trước trận bán kết World Cup 2026 giữa France và Spain`
+
+### 30. Cách theo dõi hai trận tứ kết còn lại World Cup 2026
+
+- **Output path:** `public/images/posts/cach-theo-doi-hai-tran-tu-ket-con-lai-world-cup-2026.webp`
+- **Filename:** `cach-theo-doi-hai-tran-tu-ket-con-lai-world-cup-2026.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Cách theo dõi hai trận tứ kết còn lại World Cup 2026". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Bàn xem bóng đá ban đêm với sổ ghi chú và lịch theo dõi hai trận tứ kết World Cup 2026`
+
+### 31. Norway - England tứ kết World Cup 2026: lịch thi đấu 12/7
+
+- **Output path:** `public/images/posts/norway-england-world-cup-2026-tu-ket-lich-thi-dau.webp`
+- **Filename:** `norway-england-world-cup-2026-tu-ket-lich-thi-dau.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Norway - England tứ kết World Cup 2026: lịch thi đấu 12/7". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Hai nhóm cầu thủ khởi động trong sân vận động trước trận Norway gặp England tại World Cup 2026`
+
+### 32. Phân tích Norway - England: đọc nhịp tứ kết World Cup 2026
+
+- **Output path:** `public/images/posts/phan-tich-norway-england-world-cup-2026.webp`
+- **Filename:** `phan-tich-norway-england-world-cup-2026.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Phân tích Norway - England: đọc nhịp tứ kết World Cup 2026". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Bàn phân tích chiến thuật bóng đá trước trận Norway gặp England tại World Cup 2026`
+
+### 33. Spain 2-1 Belgium tại World Cup 2026: Merino ghi bàn muộn
+
+- **Output path:** `public/images/posts/spain-belgium-world-cup-2026-ket-qua-2-1.webp`
+- **Filename:** `spain-belgium-world-cup-2026-ket-qua-2-1.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Spain 2-1 Belgium tại World Cup 2026: Merino ghi bàn muộn". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Sân vận động World Cup với cầu thủ áo đỏ ăn mừng sau trận Spain thắng Belgium 2-1`
+
+### 34. Cách theo dõi tứ kết World Cup 2026 có trách nhiệm
+
+- **Output path:** `public/images/posts/cach-theo-doi-tu-ket-world-cup-2026-co-trach-nhiem.webp`
+- **Filename:** `cach-theo-doi-tu-ket-world-cup-2026-co-trach-nhiem.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Cách theo dõi tứ kết World Cup 2026 có trách nhiệm". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Bàn làm việc theo dõi lịch tứ kết World Cup 2026 với sổ ghi chú và sân bóng phía sau`
+
+### 35. Champions League 2026: đọc nhóm đầu bảng sau 8 trận
+
+- **Output path:** `public/images/posts/champions-league-2026-bang-xep-hang-top-dau.webp`
+- **Filename:** `champions-league-2026-bang-xep-hang-top-dau.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Champions League 2026: đọc nhóm đầu bảng sau 8 trận". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Bàn phân tích bóng đá với bảng xếp hạng trừu tượng cho Champions League`
+
+### 36. France - Morocco tứ kết World Cup 2026: lịch thi đấu 10/7
+
+- **Output path:** `public/images/posts/france-morocco-world-cup-2026-tu-ket-lich-thi-dau.webp`
+- **Filename:** `france-morocco-world-cup-2026-tu-ket-lich-thi-dau.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "France - Morocco tứ kết World Cup 2026: lịch thi đấu 10/7". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Sân bóng đêm minh họa trận tứ kết World Cup 2026 giữa France và Morocco`
+
+### 37. Spain - Belgium tứ kết World Cup 2026: lịch thi đấu 11/7
+
+- **Output path:** `public/images/posts/spain-belgium-world-cup-2026-tu-ket-lich-thi-dau.webp`
+- **Filename:** `spain-belgium-world-cup-2026-tu-ket-lich-thi-dau.webp`
+- **Aspect ratio:** 16:9
+- **Dimensions:** 1600 x 900 px
+- **Generation prompt:** Create a wide photorealistic Vietnamese sports editorial image for the article "Spain - Belgium tứ kết World Cup 2026: lịch thi đấu 11/7". Feature an unmistakably adult Vietnamese or Southeast Asian sports journalist or analyst age 25-35, non-nude, wearing a tailored emerald sports jacket over a neutral athletic top. Show the article topic in a credible stadium, broadcast, or analysis-desk setting without inventing a score, badge, sponsor, quote, or result. Use deep forest, emerald, and restrained gold accents, make the editorial moment immediately clear at thumbnail size, and leave the top-left calm for the brand logo.
+- **Attached logo instruction:** Use the attached Thantai88 Sports logo reference and place its exact original appearance in the top-left at approximately 24% image width with 3% outer margin.
+- **Vietnamese alt text:** `Minh họa cầu thủ tranh bóng trong không khí tứ kết World Cup 2026 Spain gặp Belgium`
