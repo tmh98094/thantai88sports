@@ -24,26 +24,26 @@ export default function HomePage() {
         <div className="hero-lines" />
         <div className="container hero-grid">
           <div className="hero-copy" data-gsap="reveal">
-            <span className="eyebrow"><span className="live-dot" /> Cửa vào thể thao & iGaming 18+</span>
-            <h1>Vào <em>nền tảng,</em><br />đọc nhanh trước<br />khi chơi.</h1>
+            <span className="eyebrow"><span className="live-dot" /> Thantai88sport · Bóng đá, tỷ lệ và trận cầu nổi bật</span>
+            <h1>Bắt nhịp <em>trận đấu.</em><br />Chọn kèo theo<br />cách của bạn.</h1>
             <p className="hero-lead">
-              Thantai88sport thuộc hệ sinh thái <a href="https://thantai88.online" rel="noopener noreferrer">Thantai88</a>, kết hợp tin thể thao tiếng Việt, lối tắt vào trang chơi và lưu ý 18+ trước khi tham gia.
+              Tin bóng đá, lịch thi đấu, tỷ lệ và lối vào sảnh thể thao <a href="https://thantai88.online" rel="noopener noreferrer">Thantai88</a> trong một điểm đến dành cho người chơi Việt.
             </p>
             <div className="hero-actions">
-              <PartnerLink>Vào nền tảng Thantai688</PartnerLink>
-              <Link className="button button-ghost" href="/ca-cuoc-the-thao">Lưu ý trước khi chơi <ArrowRight /></Link>
+              <PartnerLink>Vào sảnh thể thao</PartnerLink>
+              <Link className="button button-ghost" href="/ca-cuoc-the-thao">Khám phá kèo thể thao <ArrowRight /></Link>
             </div>
             <div className="hero-trust">
-              <span><ShieldIcon /> Nội dung minh bạch</span>
-              <span><BallIcon /> Góc nhìn thể thao chọn lọc</span>
+              <span><ShieldIcon /> Tin bóng đá tiếng Việt</span>
+              <span><BallIcon /> Phân tích trận đấu</span>
               <span className="trust-18">18+</span>
             </div>
           </div>
           <div className="hero-visual" data-gsap="reveal">
             <ImagePlaceholder alt="Nữ biên tập viên thể thao Việt Nam tại sân vận động" label="hero-stadium-1600x2000.webp" priority ratio="hero" src="/images/home/hero-stadium-1600x2000.webp" />
             <div className="hero-score-card" data-gsap="lift">
-              <span className="score-label">Lối tắt 18+</span>
-              <strong>Chuyển đến nền tảng đối tác chỉ với một nút bấm</strong>
+              <span className="score-label">Vào trận nhanh</span>
+              <strong>Tin mới, tỷ lệ và sảnh thể thao trong một điểm chạm</strong>
               <PartnerLink className="text-link" showIcon={false}>Vào ngay <ArrowUpRight /></PartnerLink>
             </div>
           </div>
