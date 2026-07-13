@@ -54,7 +54,7 @@ export const siteConfig = {
   locale: "vi_VN",
   language: "vi",
   partnerPath: "/go/platform",
-  partnerUrl: "https://www.thantai688.com/?f=55",
+  partnerUrl: "https://www.thantai688.com?f=54",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://thantai88sport.example",
 } as const;
 ```

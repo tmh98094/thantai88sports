@@ -1,7 +1,7 @@
 # Thantai688 Partner-Platform Research Notes for Thantai88sport
 
 Last checked: 2026-07-05  
-Source URL: `https://www.thantai688.com/?f=55`
+Source URL: `https://www.thantai688.com?f=54`
 
 ## What was verified
 

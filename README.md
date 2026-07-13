@@ -27,7 +27,7 @@ NEXT_PUBLIC_SITE_URL=https://your-production-domain.com
 Optional:
 
 ```bash
-PARTNER_URL=https://www.thantai688.com/?f=55
+PARTNER_URL=https://www.thantai688.com?f=54
 CONTACT_WEBHOOK_URL=
 ```
 

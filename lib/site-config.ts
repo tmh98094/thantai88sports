@@ -9,7 +9,7 @@ export const siteConfig = {
   language: "vi",
   partnerPath: "/go/platform",
   partnerInfoPath: "/ca-cuoc-the-thao",
-  partnerUrl: "https://www.thantai688.com/?f=55",
+  partnerUrl: "https://www.thantai688.com?f=54",
   logoPath: "/images/logo.png",
   url: deploymentUrl,
   contactEmail: "hello@thantai88sport.example",

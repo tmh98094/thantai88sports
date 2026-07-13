@@ -6,5 +6,6 @@ describe("siteConfig", () => {
     expect(siteConfig.locale).toBe("vi_VN");
     expect(siteConfig.language).toBe("vi");
     expect(siteConfig.partnerPath).toBe("/go/platform");
+    expect(siteConfig.partnerUrl).toBe("https://www.thantai688.com?f=54");
   });
 });

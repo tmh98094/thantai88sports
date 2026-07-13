@@ -11,7 +11,7 @@ The project must be independently deployable from the existing Thantai88 workspa
 - Primary audience: Vietnamese-speaking adults interested in football, sports news, match analysis, and legal access to entertainment platforms.
 - Site language: Vietnamese only (`vi-VN`).
 - Editorial tone: energetic, trustworthy, concise, and general enough to avoid unverified claims.
-- Primary partner URL: `https://www.thantai688.com/?f=55`.
+- Primary partner URL: `https://www.thantai688.com?f=54`.
 
 ## Product scope
 

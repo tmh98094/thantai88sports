@@ -32,7 +32,7 @@ Do not treat placeholder copy, development defaults, affiliate statements, legal
 
 ## 4. Affiliate destination and commercial claims
 
-- [x] Default partner destination supplied: `https://www.thantai688.com/?f=55`.
+- [x] Default partner destination supplied: `https://www.thantai688.com?f=54`.
 - [ ] Confirm that this exact destination is authorized for the intended market, campaign, and traffic sources.
 - [ ] Confirm the legal identity, operating jurisdiction, and current licensing or authorization status of the partner. Do not publish a licensing claim until evidence has been reviewed.
 - [ ] Confirm the permitted brand name, trademarks, CTA wording, and any mandatory partner disclaimer.
