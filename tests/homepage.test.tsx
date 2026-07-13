@@ -44,7 +44,7 @@ describe("homepage structure", () => {
       </>,
     );
 
-    expect(html).toContain('src="/images/logo.png"');
+    expect(html).toContain('src="/images/thantai88-logo-official.webp"');
     expect(html).toContain('class="sticky-affiliate-cta"');
     expect(html).toContain("Thu gọn CTA");
     expect(html).toContain("Chơi ngay");

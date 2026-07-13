@@ -1,11 +1,13 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { GsapScrollEffects } from "@/components/gsap-scroll-effects";
+import { CampaignCarousel } from "@/components/campaign-carousel";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { StickyAffiliateCta } from "@/components/sticky-affiliate-cta";
 import { absoluteUrl, siteConfig } from "@/lib/site-config";
 import "./globals.css";
+import "./campaign.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -38,6 +40,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
     <html lang="vi">
       <body>
         <GsapScrollEffects />
+        <CampaignCarousel />
         <a className="skip-link" href="#noi-dung">Chuyển đến nội dung</a>
         <SiteHeader />
         <main id="noi-dung">{children}</main>

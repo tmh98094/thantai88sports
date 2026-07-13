@@ -1,0 +1,326 @@
+.campaign-overlay {
+  align-items: center;
+  animation: campaign-backdrop-in 0.28s ease-out both;
+  background: rgba(5, 0, 1, 0.84);
+  backdrop-filter: blur(10px);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 24px;
+  position: fixed;
+  z-index: 120;
+}
+
+.campaign-modal {
+  background: #160304;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.58);
+  color: #fff8e8;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(330px, 0.85fr);
+  max-height: min(760px, 90dvh);
+  max-width: 1080px;
+  min-height: 590px;
+  overflow: hidden;
+  position: relative;
+  width: min(100%, 1080px);
+}
+
+.campaign-close {
+  align-items: center;
+  background: rgba(8, 1, 2, 0.74);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 26px;
+  height: 42px;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 42px;
+  z-index: 3;
+}
+
+.campaign-close:hover {
+  background: #fff;
+  color: #5f0908;
+}
+
+.campaign-media {
+  background: #090102;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.campaign-media::after {
+  background: linear-gradient(90deg, transparent 58%, rgba(22, 3, 4, 0.84));
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.campaign-media img {
+  animation: campaign-image-in 0.56s cubic-bezier(0.22, 1, 0.36, 1) both;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  position: absolute;
+  width: 100%;
+}
+
+.campaign-count {
+  background: rgba(8, 1, 2, 0.7);
+  bottom: 18px;
+  color: #ffd36b;
+  font-size: 12px;
+  font-weight: 850;
+  left: 18px;
+  padding: 7px 10px;
+  position: absolute;
+  z-index: 2;
+}
+
+.campaign-copy {
+  align-content: center;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255, 193, 69, 0.16), transparent 34%),
+    #160304;
+  display: grid;
+  min-width: 0;
+  padding: 58px 46px 42px;
+  position: relative;
+  z-index: 1;
+}
+
+.campaign-limited {
+  align-items: center;
+  color: #ffd36b;
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 850;
+  gap: 7px;
+  margin-bottom: 18px;
+  width: max-content;
+}
+
+.campaign-limited::before {
+  background: #ff3c36;
+  border-radius: 999px;
+  box-shadow: 0 0 0 5px rgba(255, 60, 54, 0.12);
+  content: "";
+  height: 7px;
+  width: 7px;
+}
+
+.campaign-copy h2 {
+  color: #fff;
+  font-size: clamp(32px, 3.4vw, 48px);
+  letter-spacing: 0;
+  line-height: 1.02;
+  margin: 0;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+.campaign-copy > p {
+  color: rgba(255, 248, 232, 0.8);
+  font-size: 18px;
+  line-height: 1.55;
+  margin: 20px 0 26px;
+}
+
+.campaign-primary {
+  align-items: center;
+  background: linear-gradient(110deg, #e11d19, #ff4b32 54%, #ffb32c) !important;
+  border: 0 !important;
+  border-radius: 6px !important;
+  color: #fff !important;
+  display: inline-flex !important;
+  font-size: 16px !important;
+  font-weight: 900 !important;
+  gap: 9px;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 22px !important;
+  width: min(100%, 240px);
+}
+
+.campaign-primary:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+.campaign-primary svg {
+  height: 18px;
+  width: 18px;
+}
+
+.campaign-copy > small {
+  color: rgba(255, 248, 232, 0.62);
+  display: block;
+  font-size: 12px;
+  line-height: 1.55;
+  margin-top: 16px;
+  max-width: 42ch;
+}
+
+.campaign-controls {
+  align-items: center;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 42px minmax(0, 1fr) 42px;
+  margin-top: 34px;
+}
+
+.campaign-controls > button {
+  align-items: center;
+  background: transparent;
+  border: 1px solid rgba(255, 211, 107, 0.34);
+  border-radius: 999px;
+  color: #ffd36b;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 28px;
+  height: 42px;
+  justify-content: center;
+  line-height: 1;
+  padding: 0 0 3px;
+  width: 42px;
+}
+
+.campaign-controls > button:hover {
+  background: #ffd36b;
+  color: #3d0807;
+}
+
+.campaign-dots {
+  align-items: center;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+}
+
+.campaign-dots button {
+  background: rgba(255, 255, 255, 0.24);
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  height: 6px;
+  padding: 0;
+  transition: background 0.18s ease, width 0.18s ease;
+  width: 6px;
+}
+
+.campaign-dots button[aria-current="true"] {
+  background: #ffd36b;
+  width: 24px;
+}
+
+.campaign-modal button:focus-visible,
+.campaign-modal a:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+@keyframes campaign-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes campaign-image-in {
+  from { opacity: 0.6; transform: scale(1.025); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 760px) {
+  .campaign-overlay {
+    align-items: center;
+    padding: 10px;
+  }
+
+  .campaign-modal {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(210px, 38dvh) auto;
+    max-height: 94dvh;
+    min-height: 0;
+    overflow-y: auto;
+    width: 100%;
+  }
+
+  .campaign-media::after {
+    background: linear-gradient(180deg, transparent 62%, #160304);
+  }
+
+  .campaign-media img {
+    object-position: center center;
+  }
+
+  .campaign-copy {
+    align-content: start;
+    padding: 22px 20px 20px;
+  }
+
+  .campaign-limited {
+    margin-bottom: 12px;
+  }
+
+  .campaign-copy h2 {
+    font-size: clamp(27px, 8vw, 36px);
+  }
+
+  .campaign-copy > p {
+    font-size: 16px;
+    margin: 12px 0 18px;
+  }
+
+  .campaign-primary {
+    width: 100%;
+  }
+
+  .campaign-copy > small {
+    margin-top: 12px;
+  }
+
+  .campaign-controls {
+    margin-top: 18px;
+  }
+
+  .campaign-close {
+    right: 12px;
+    top: 12px;
+  }
+}
+
+@media (max-height: 700px) and (min-width: 761px) {
+  .campaign-modal {
+    min-height: 520px;
+  }
+
+  .campaign-copy {
+    padding-bottom: 28px;
+    padding-top: 42px;
+  }
+
+  .campaign-controls {
+    margin-top: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .campaign-overlay,
+  .campaign-media img {
+    animation: none;
+  }
+
+  .campaign-dots button,
+  .campaign-primary {
+    transition: none;
+  }
+}

@@ -47,7 +47,7 @@ describe("SEO helpers", () => {
     const graph = websiteJsonLd();
     expect(graph["@graph"].map((item) => item["@type"])).toEqual(["Organization", "WebSite"]);
     expect(graph["@graph"][1].inLanguage).toBe("vi-VN");
-    expect(JSON.stringify(graph)).toContain("/images/logo.png");
+    expect(JSON.stringify(graph)).toContain("/images/thantai88-logo-official.webp");
   });
 
   it("describes the editorial-team URL as a profile page", () => {
